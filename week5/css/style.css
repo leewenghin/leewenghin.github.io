@@ -1,0 +1,93 @@
+#container {
+    background-color: #F1F1F1;
+    max-width: 1024px;
+    margin: auto;
+  } 
+
+.header {
+    background-color: #F1F1F1;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+}
+
+.header img {
+  width: 80px;
+}
+
+.header h1 {
+  margin-top: -1px;
+}
+
+/* The navbar container */
+.topnav {
+  display: flex;
+  background-color: #333;
+  justify-content: space-between;
+  padding: 14px 16px;
+}
+
+
+/* Navbar links */
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  justify-content: space-between;
+  /*width: 200px;
+  flex-wrap: wrap;*/
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  text-decoration: underline;
+  color: black;
+}
+
+.topnav .leftrow {
+  margin-left: -10px;
+}
+.topnav .rightrow {
+  margin-right: -10px;
+}
+
+/* Row */
+.row {
+  display: flex;
+}
+
+/* Column */
+.column {
+  width: 25%;
+}
+
+#column2 {
+  width: 50%;
+}
+
+@media screen and (max-width: 800px) and (min-width:480px) {
+  .column {
+	  width: 50%;
+  }
+  
+  .row {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .column{
+    width: 100%;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+}
+
+.footer {
+ text-align: center; 
+}
