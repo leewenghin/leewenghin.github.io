@@ -1,0 +1,108 @@
+.container {
+    margin: 20px 10px;
+}
+
+.box {
+    display: flex;
+    width: 100%;
+}
+
+.logobar {
+    background-color: aqua;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.box2 {
+    width: 100%;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.phonebar {
+    background-color: antiquewhite;
+    width: 15%;
+    height: 20px;
+    padding: 15px 50px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.menubar {
+    background-color: aquamarine;
+    width: 20%;
+    height: 20px;
+    padding: 20px 110px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imgbar {
+    background-color: beige;
+    width: 100%;
+    height: 20px;
+    padding: 100px 0;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.box3 {
+    margin-top: 25px;
+    display: flex;
+}
+
+.textbar {
+    background-color: lightgreen;
+    width: 100%;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.sidebar {
+    background-color: lightblue;
+    width: 40%;
+    padding: 150px 0;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.footer {
+    background-color: khaki;
+    margin-top: 25px;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    .box {
+        display: block;
+    }
+    
+    .phonebar {
+        width: 100%;
+        margin-top: 25px;
+        padding: 15px 0;
+    }
+
+    .menubar {
+        width: 100%;
+    }
+
+    .box3 {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        margin-top: 25px;
+        width: 100%;
+        margin-left: auto;
+    }
+}

@@ -1,0 +1,117 @@
+.container {
+    margin: 20px 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logobar {
+    background-color: aqua;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.phonebar {
+    background-color: antiquewhite;
+    height: 20px;
+    padding: 15px 90px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.menubar {
+    background-color: aquamarine;
+    width: 100%;
+    height: 20px;
+    padding: 20px 0;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.imgbar {
+    background-color: beige;
+    width: 100%;
+    height: 20px;
+    padding: 100px 0;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.row {
+    display: flex;
+    margin: 25px 0;
+    justify-content: space-between;
+}
+
+.column {
+    background-color: violet;
+    width: 23%;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#column1 {
+    padding-left: -50px;
+}
+
+.box2 {
+    display: flex;
+}
+
+.textbar {
+    background-color: lightgreen;
+    width: 100%;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.sidebar {
+    background-color: lightblue;
+    width: 40%;
+    padding: 150px 0;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.footer {
+    background-color: khaki;
+    margin-top: 25px;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    .box {
+        display: block;
+    }
+    
+    .phonebar {
+        width: 100%;
+        margin-top: 25px;
+        padding: 15px 0;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        margin: 15px 0;
+    }
+
+    .column {
+        width: 48%;
+        margin: 10px 0;
+    }
+
+    .box2 {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        margin-top: 25px;
+        width: 100%;
+        margin-left: auto;
+    }
+}

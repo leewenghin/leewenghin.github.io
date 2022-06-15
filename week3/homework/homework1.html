@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Week 3 Sample</title>
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            /* If Lato not available, use sans-serif */
+            font-size: 3vw;
+            /* vw is the size unit, it changes based on your current screen size. The bigger screen the font will be bigger and vice versa. */
+        }
+
+        .titlebox {
+            /* 20% height of the full page. Again like the vw as above, vw is width, then vh is height */
+            text-align: left;
+            border: 7px black solid;
+            border-left-style: none;
+            padding-left: 50px;
+            padding-bottom: 43px;
+            padding-top: 10px;
+            width: 85%;
+        }
+
+        .container {
+            /* Target those elements containing class (dot) called 'container' */
+            display: flex;
+            /* This is the magic to make the 2 div align horizontally */
+        }
+
+        .container .box {
+            /* All the .box under .container */
+            width: 43%;
+            /* Each column would takes up 50%, so equally sharing spaces left and right */
+            height: 95vh;
+            display: flex;
+            /* refer here to get more details about flex usage: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+            align-items: center;
+            /* vertically center */
+        }
+
+        .picbox {
+            text-align: right;
+            background-image: url("images/unsplash.jpg");
+            background-size: cover;
+            background-position: center center;
+            padding-left: 5%;
+        }
+
+        h1 {
+            padding: 10px;
+            margin-bottom: -20px;
+            font-size: 180%;
+        }
+
+        p {
+            font-size: 60%;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box">
+            <div class="titlebox">
+                <h1>MERLAND FURNITURE</h1>
+                <p class="test">Furniture, decor, and beyond</p>
+            </div>
+        </div>
+
+        <div class="picbox">
+            <img src="images/cover.jpg">
+        </div>
+    </div>
+
+</body>
+
+</html>

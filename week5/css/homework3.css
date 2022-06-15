@@ -1,0 +1,106 @@
+body {
+    background-color: #0096FF;
+    margin: 10px;
+}
+
+.header {
+    background-color: lightskyblue;
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.btcontainer{
+    display: flex;
+}
+
+.menubar {
+    background-color: lightskyblue;
+    width: 30%;
+    height: 100%;
+    margin-top: 15px;
+    height: 415px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rbcontainer {
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 70%;
+    height: 550px;
+}
+
+.box {
+    display: flex;
+    height: 200px;
+}
+
+.main {
+    background-color: lightskyblue;
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    background-color: lightskyblue;
+    width: 45%;
+    height: 100%;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: lightskyblue;
+    width: 100%;
+    height: 200px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+    .menubar {
+        height: 615px;
+    }
+    .box {
+        flex-direction: column;
+        height: 400px;
+    }
+
+    .main {
+        width: 100%;
+        height: 200px;
+    }
+
+    .right {
+        width: 100%;
+        height: 200px;
+        margin-top: 15px;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .btcontainer {
+        flex-direction: column;
+    }
+
+    .menubar {
+        width: 100%;
+        height: 118px;
+    }
+
+    .rbcontainer {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+    }
+}
