@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background-image: url(../images/bg.jpg);
+}
+
+.topnav {
+    display: flex;
+    background-color: lightgray;
+    justify-content: space-between;
+    padding: 14px 16px;
+  }
+  
+  
+  /* Navbar links */
+  .topnav a {
+    color: black;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+    justify-content: space-between;
+    /*width: 200px;
+    flex-wrap: wrap;*/
+  }
+  
+  /* Links - change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    text-decoration: underline;
+    color: black;
+  }
+  
+  .topnav .leftrow {
+    margin-left: -15px;
+    width: 30%;
+  }
+  .topnav .rightrow {
+    margin-right: -16px;
+    width: 410px;
+  }
+
+  .topnav .rightrow img{
+    width: 3%;
+  }
+
+  img {
+    width: 20%;
+  }
+
+  .bdcontainer {
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    height: 300px;
+  }
+
+  .box1 {
+    display: flex;
+    justify-content: center;
+    margin-left: -80px;
+    margin-top: -15px;
+  }
+
+  .box1 p {
+    padding-left: 5px;
+  }
+
+  .box1 img {
+    padding-top: 11px;
+    padding-left: 60px;
+    width: 2%;
+    height: 2%;
+  }
+
+  .box1 .leftrow {
+    display: flex;
+    justify-content: right;
+  }
+
+  .box1 .rightrow {
+    display: flex;
+    padding-left: 20px;
+  }
+
+
+  .leftbtm {
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+    left: 50px;
+  }
+
+  .leftbtm img{
+    width: 6%;
+    height: 6%;
+    margin-top: 5px;
+  }
+
+  .leftbtm p {
+    padding-left: 15px;
+  }
+
+  .rightbtm {
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    text-align: left;
+    width: 350px;
+    border: 1px dashed white;
+    padding-left: 20px;
+  }
+
+
+  .rightbtm h4  {
+    margin-bottom: -7px;
+  }
+
+  .rightbtm p {
+    padding-top: 3px;
+  }
+
+  #fh4 {
+    color: lightcoral;
+  }
