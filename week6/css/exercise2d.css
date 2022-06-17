@@ -1,0 +1,30 @@
+.blog {grid-area: blog;}
+.logo {grid-area: logo; margin-top: 15px; display: flex; align-items: center; justify-content: center;}
+.phone {grid-area: phone; margin-top: 15px;}
+.menu {grid-area: menu;  margin-left: 30px;}
+.slideshow {grid-area: slideshow; height: 150px; margin-top: 15px; display: flex; align-items: center; justify-content: center;}
+.sidebar {grid-area: sidebar; height: 500px; margin-top: 15px; display: flex; align-items: center; justify-content: center;}
+.text {grid-area: text; height: 300px; display: flex; align-items: center; justify-content: center;}
+.footer {grid-area: footer; height: 100px; display: flex; align-items: center; justify-content: center;}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'blog blog blog'
+    'logo empty phone'
+    'logo menu menu'
+    'slideshow slideshow sidebar'
+    'text text sidebar'
+    'footer footer footer'
+    ;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
