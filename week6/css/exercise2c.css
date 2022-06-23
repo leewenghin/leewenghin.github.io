@@ -1,0 +1,27 @@
+.logo {grid-area: logo; height: 140px; display: flex; align-items: center; justify-content: center;}
+.phone {grid-area: phone;}
+.menu {grid-area: menu; margin-top: 20px; margin-left: 100px;}
+.image {grid-area: image; height: 200px; margin-top: 20px; display: flex; align-items: center; justify-content: center;}
+.sidebar {grid-area: sidebar; margin-top: 20px; margin-left: 20px; height: 300px; display: flex; align-items: center; justify-content: center;}
+.text {grid-area: text; margin-top: 20px; display: flex; align-items: center; justify-content: center;}
+.footer {grid-area: footer; margin-top: 20px;}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'logo empty phone '
+    'logo menu menu'
+    'image image image'
+    'text text sidebar'
+    'footer footer footer';
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }

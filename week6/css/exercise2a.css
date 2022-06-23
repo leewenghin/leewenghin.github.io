@@ -1,0 +1,29 @@
+.logo {grid-area: logo;}
+.menu {grid-area: menu;}
+.image {grid-area: image; height: 200px; display: flex; align-items: center; justify-content: center;}
+.feat1 {grid-area: feat1; height: 150px; display: flex; align-items: center; justify-content: center;}
+.feat2 {grid-area: feat2; display: flex; align-items: center; justify-content: center;}
+.feat3 {grid-area: feat3; display: flex; align-items: center; justify-content: center;}
+.sidebar {grid-area: sidebar; height: 300px; display: flex; align-items: center; justify-content: center;}
+.text {grid-area: text; display: flex; align-items: center; justify-content: center;}
+.footer {grid-area: footer;}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'logo logo menu menu menu menu'
+    'image image image image image image'
+    'feat1 feat1 feat2 feat2 feat3 feat3'
+    'sidebar sidebar text text text text'
+    'footer footer footer footer footer footer';
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
