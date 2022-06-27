@@ -1,0 +1,812 @@
+body {
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+}
+
+/* Start First Container */
+.fcontainer {
+    background-image: url(../images/homeworkimg/Bg\ Shape@2x.png);
+    background-repeat: no-repeat;
+    background-size: 53.9vw;
+    background-position: right top;
+}
+
+/* Start Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    padding-left: 13vw;
+    padding-right: 15.5vw;
+}
+
+.topnav-left {
+    display: flex;
+    align-items: center;
+}
+
+.topnav-left img {
+    width: 20%;
+}
+
+.topnav-left h1 {
+    padding: 0 10px;
+    margin-bottom: 0px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.navbar a:hover{
+    background-color: grey;
+}
+
+.topnav-right {
+    padding-top: 20px;
+}
+/* End Navbar */
+
+/* Start Box */ 
+.fcontainer-box {
+    display: flex;
+}
+
+/* Open Social Media */
+.contact {
+    padding: 0 5.8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.media {
+    padding: 1.3vw 0;
+}
+
+.contact img {
+    width: 21px;
+}
+
+#line {
+    text-align: center;
+    padding: 0;
+}
+
+#line img{
+    width: 3px;
+    height: 30px;
+}
+/* Close Social Media */
+/* Close Box*/
+
+/* Open Textbox*/
+.fcontainer-tb {
+    width: 40%;
+    text-transform: uppercase;
+    padding-top: 125px;
+}
+#firsth1 {
+    color: rgba(72,72,72,255);
+    margin: auto;
+    font-weight: 100;
+    font-size: 42px;
+}
+
+#secondh1 {
+    color: rgba(72,72,72,255);
+    margin: auto;
+    font-size: 65px;
+}
+
+.fcontainer-tb p{
+    color: rgb(107, 107, 107);
+    font-size: 13px;
+}
+
+/* Open Button */
+.fcontainer-tb a{
+    text-decoration: none;
+}
+
+.button1 {
+    background-image: linear-gradient(to right, #281fb0, #6156f9);
+    width: 140px;
+    height: 45px;
+    padding: 0 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+}
+
+/* Open Mouse */
+.mouse {
+    display: flex;
+    justify-content: center;
+}
+
+.mouse .circle {
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    width: 70px;
+    height: 70px;
+}
+
+.mouse img {
+    width: 25px;
+    padding-top: 16px;
+}
+/* Close Mouse*/
+/* Close Textbox*/
+
+/* Open Image */
+.fcontainer-img img{
+    width: 38.6vw
+}
+
+.fcontainer-img {
+    width: 45%;
+    display: flex;
+}
+/* Close Image */
+/* Close First Container */
+
+/* Open Second Container */
+/* Open Text Box */
+.scontainer {
+    display: flex;
+    margin-top: 200px;
+}
+
+.scontainer-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scontainer-img img{
+    width: 80%;
+}
+
+.scontainer-tb {
+    padding-top: 50px;
+    background-image: url(../images/homeworkimg/who\ we\ are\ background@2x.png);
+    background-position: right top;
+}
+
+.scontainer-tb h4 {
+    margin-bottom: 15px;
+}
+
+.scontainer-tb h1 {
+    margin: auto;
+    font-size: 2.9vw;
+}
+
+.scontainer-tb p{
+    line-height: 25px;
+    padding-top: 8px;
+    width: 65.5%;
+}
+
+.scontainer-tb a{
+    text-decoration: none;
+}
+
+.button2 {
+    margin-top: 45px;
+    background-image: linear-gradient(to right, #281fb0, #6156f9);
+    width: 140px;
+    height: 45px;
+    padding: 0 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+}
+
+.textbox3 {
+    margin-top: 200px;
+}
+
+.textbox3 h4 {
+    padding-left: 14.3vw;
+}
+
+.textbox3 h1{
+    padding-left: 14.3vw;
+}
+
+
+.service {
+    background-image: url(../images/homeworkimg/background@2x.png);
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -6.6vw;
+    padding-left: 14.3vw;
+    padding-right: 6.8vw;
+}
+
+.servicebox {
+    background-color: white;
+    width: 29%;
+    border-radius: 30px;
+    box-shadow: 1px 2px 2px rgb(0 0 0 / 20%), 0px 0px 2px rgb(0 0 0 / 20%);
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 3.3vw;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.servicebox img {
+    width: 90px;
+    padding-top: 30px;
+}
+
+.servicebox h4 {
+    text-align: left;
+    padding-left: 30px;
+    padding: 0 30px;
+}
+
+.servicebox p {
+    text-align: left;
+    padding: 0 30px;
+    padding-top: 15px;
+    text-justify: inter-word;
+}
+
+.service a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    width: 120px;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+}
+
+.minibtn {
+    background-image: url(../images/homeworkimg/Rectangle\ 8@2x.png);
+    background-size: 120px 35px;
+    background-repeat: no-repeat;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textbox4 {
+    margin-top: 220px;
+    background-color: rgba(236,234,255,255);
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.pricing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pricebox {
+    padding: 20px;
+    background-color: white;
+    width: 200px;
+    box-shadow: 0px 0px 1px rgb(0 0 0 / 20%), 0px 0px 1px rgb(0 0 0 / 20%);
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+.pricebox2 {
+    padding: 20px;
+    background-color: white;
+    width: 200px;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 20%), 0px 0px 4px rgb(0 0 0 / 20%);
+    border-radius: 20px;
+    margin-left: 50px;
+    position: relative;
+}
+
+#firstpb {
+    margin-left: -2px;
+}
+
+.pricebox a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.pricebtn {
+    border: 1px solid;
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricebox2 a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.pricebtn2 {
+    background-image: linear-gradient(to right, #281fb0, #6156f9);
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+}
+
+.textbox4 h5 {
+    padding-top: 40px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bullet {
+    background-color: lightgray;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    margin-top: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.bullet:hover {
+    background-color: rgb(166, 85, 253);
+    width: 15px;
+    height: 15px;
+    margin-top: 40px;
+}
+
+.textbox5 {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.newstitle {
+    font-weight: lighter;
+}
+
+.mailbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.textbox5 h5 {
+    margin: auto;
+}
+
+.textbox5 h1 {
+    margin-top: 10px;
+}
+
+.textbox5 input {
+    background-color: rgb(248, 248, 248);
+    border: rgb(248, 243, 243);
+    border-radius: 7px;
+    padding: 15px 0;
+    padding-left: 30px;
+    padding-right: 200px;
+    outline: none;
+}
+
+.textbox5 a{
+    text-decoration: none;
+    padding-left: 25px;
+}
+
+.subbtn {
+    background-image: linear-gradient(to right, #281fb0, #6156f9);
+    width: 130px;
+    height: 45px;
+    padding: 0 10px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+}
+
+.lcontainer {
+    position: relative;
+    bottom: 0;
+    background-image: url(../images/homeworkimg/Bg\ Shape\ footer\ 1@2x-overlay.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.banner {
+    padding-top: 350px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.banner img {
+    height: 18px;
+    padding-left: 15px;
+}
+
+#img1 {
+    padding: 0;
+}
+
+.titlecol {
+    padding-bottom: 1.3vw;
+}
+
+#titlecol2 {
+    padding-left: 10px;
+}
+
+.smallcol {
+    display: flex;
+}
+
+.weekcol{
+    padding: 0 10px;
+}
+
+.row {
+    line-height: 30px;
+}
+
+#firstrow {
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+}
+
+#secondrow {
+    width: 20%;
+}
+
+#firstrow h1 {
+    margin-top: 20px;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+#firstrow h2 {
+    font-weight: lighter;
+}
+
+.row {
+    width: 25%;
+}
+
+.row .col img{
+    padding: 0;
+    padding-right: 6px;
+    height: 15px;
+}
+
+#lastrow {
+    width: 35%;
+}
+
+@media screen and (min-width: 617px) and (max-width: 1024px){
+    .fcontainer {
+        background: none;
+    }
+
+    .topnav-left {
+        width: 216px;
+        padding: 20px 0;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .topnav-right a {
+        color: black;
+    }
+
+    .fcontainer-tb {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fcontainer-img {
+        display: none;
+    }
+
+    .fcontainer-img img{
+        display: none;
+    }
+
+    .mouse {
+        margin-top: 70px;
+    }
+
+    .scontainer {
+        margin-top: 100px;
+    }
+
+    .scontainer-img img {
+        display: none;
+    }
+
+    .scontainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .scontainer-tb {
+        width: 70%;
+    }
+
+    .scontainer-tb p {
+        width: 95%;
+    }
+
+    .servicebox {
+        width: 45%;
+    }
+
+    #firstpb {
+        margin-left: 50px;
+        margin-top: 0;
+    }
+    
+    .pricebox {
+        width: 70%;
+        margin-top: 40px;
+    }
+
+    .pricebox2 {
+        width: 70%;
+        margin-top: 40px;
+        height: 30vh;
+    }
+
+    .mailbox {
+        flex-wrap: wrap;
+    }
+
+    .textbox5 input {
+        width: 50%;
+        padding-right: 0;
+        margin-left: 50px;
+        margin-bottom: 15px;
+    }
+
+    .banner {
+        flex-wrap: wrap;
+        padding-top: 300px;
+    }
+
+    .row {
+        font-size: 15px;
+        margin: 0;
+        width: 45%;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+
+    .lcontainer {
+        background-size: 2500px;
+    }
+
+    #firstrow {
+        width: 45%;
+        padding: 0 15px;
+        padding-top: 30px;
+    }
+
+    #secondrow {
+        width: 45%;
+    }
+
+    #lastrow {
+        width: 45%;
+        margin: 0;
+    }
+
+    
+    #firstrow h1 {
+        font-size: 30px;
+    }
+
+    #firstrow h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 617px) {
+    .fcontainer {
+        background: none;
+    }
+
+    .topnav-left {
+        width: 216px;
+        padding: 20px 0;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .topnav-right a {
+        color: black;
+    }
+
+    .fcontainer-tb {
+        width: 90%;
+    }
+
+    .fcontainer-img {
+        display: none;
+    }
+
+    .scontainer-img {
+        display: none;
+    }
+
+    .scontainer-tb {
+        padding: 0 30px;
+    }
+
+    .scontainer-tb p {
+        width: auto;
+    }    
+
+    .navbar h1 {
+        font-size: 30px;
+    }
+
+    .navbar img {
+        width: 50px;
+    }
+
+    .navbar a {
+        font-size: 15px;
+    }
+
+    #firsth1 {
+        font-size: 25px;
+    }
+
+    #secondh1 {
+        font-size: 45px;
+    }
+
+    .textbox1 p {
+        font-size: 10px;
+    }
+
+    .textbox1 {
+        margin-left: 70px;
+    }
+
+    .mouse {
+        margin-top: 120px;
+    }
+    
+
+    .servicebox {
+        width: 100%;
+    }
+
+    #firstpb {
+        margin-left: 50px;
+        margin-top: 0;
+    }
+    
+    .pricebox {
+        width: 70%;
+        margin-top: 40px;
+        margin-right: 50px;
+    }
+
+    .pricebox2 {
+        width: 70%;
+        margin-top: 40px;
+        height: 30vh;
+        margin-right: 50px;
+    }
+
+    .mailbox {
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+
+    .mailbox input {
+        text-align: center;
+    }
+
+    .mailbox a {
+        padding-left: 0;
+    }
+
+    .textbox5 a{
+        margin: auto;
+    }
+
+    .textbox5 input {
+        margin-bottom: 15px;
+        padding-right: 0;
+        padding-left: 0;
+        padding: 15px 40px;
+        margin: 30px;
+    }
+
+    .banner {
+        flex-wrap: wrap;
+        padding-top: 200px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .smallcol {
+        justify-content: center;
+    }
+
+    .row {
+        font-size: 15px;
+        width: 100%;
+        margin: auto;
+        padding: 20px 0;
+    }
+
+    #firstrow {
+        width: 100%;
+    }
+
+    #secondrow {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #lastrow {
+        width: 100%;
+    }
+    
+    #firstrow h1 {
+        font-size: 30px;
+    }
+
+    #firstrow h2 {
+        font-size: 30px;
+    }
+
+    .lcontainer {
+        background-size: cover;
+    }
+}
