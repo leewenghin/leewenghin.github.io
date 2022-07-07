@@ -1,0 +1,81 @@
+body {
+    width: 550px;
+    margin: auto;
+}
+.container form {
+    background-color: aqua;
+    margin: auto;
+}
+
+fieldset {
+    padding: 0px 20px;
+    margin: 0px -15px;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name input {
+    width: 240px;
+    height: 30px;
+}
+
+.email input {
+    width: 240px;
+    height: 30px;
+}
+
+.phone input {
+    width: 240px;
+    height: 30px;
+}
+
+.secondrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.forthrow input{
+    width: 530px;
+    height: 30px;
+}
+
+.sixthrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sixthrow input{
+    width: 240px;
+    height: 30px;
+}
+
+.lastrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lastrow input {
+    width: 240px;
+    height: 30px;
+}
+
+.lastrow select {
+    width: 248px;
+}
+
+.button {
+    text-align: center;
+}
+
+.button a {
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    border: green;
+    border-radius: 50px;    
+}
