@@ -71,7 +71,7 @@ fieldset {
     text-align: center;
 }
 
-.button a {
+.button input{
     background-color: green;
     text-decoration: none;
     color: white;

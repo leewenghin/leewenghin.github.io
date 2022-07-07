@@ -14,26 +14,26 @@
                         <div class="firstrow">
                             <span>Name<br></span>
                                 <div class="name">
-                                    <input type="text" name="firstname" placeholder="First">
-                                    <input type="text" name="lastname" placeholder="Last">
+                                    <input type="text" name="firstname" placeholder="First" required>
+                                    <input type="text" name="lastname" placeholder="Last" required>
                                  </div>
                         </div><br>
 
                         <div class="secondrow">
                             <div class="email">
                                 <span>Email<br></span>
-                                <input type="text" name="email">
+                                <input type="text" name="email" required>
                             </div><br>
     
                             <div class="phone">
                                 <span>Phone<br></span>
-                                <input type="text" name="phone" placeholder="### ### ####">
+                                <input type="text" name="phone" placeholder="### ### ####" required>
                             </div>
                         </div><br><br>
 
                         <div>
                             <span>Gender</span>
-                            <select name="gender">
+                            <select name="gender" required>
                                 <option value="">-- Please Select Gender --</option>
                                 <option value="Male">Male</option>
                                 <option value="Female">Female</option>
@@ -44,21 +44,21 @@
                         <div class="forthrow">
                             <span>Former Address</span><br>
                                 <div class="address">
-                                    <input type="text" name="address" placeholder="Street Address">
+                                    <input type="text" name="address" placeholder="Street Address" required>
                                 </div><br>
                                 <div class="address">
-                                    <input type="text" name="address" placeholder="Street Address Line 2">
+                                    <input type="text" name="address" placeholder="Street Address Line 2" required>
                                 </div>
                         </div><br>
 
                         <div class="sixthrow">
-                            <input type="text" name="city" placeholder="City">
-                            <input type="text" name="region" placeholder="Region">
+                            <input type="text" name="city" placeholder="City" required>
+                            <input type="text" name="region" placeholder="Region" required>
                         </div><br>
 
                         <div class="lastrow">
-                            <input type="text" name="postal" placeholder="Postal / Zip Code">
-                            <select name="country">
+                            <input type="text" name="postal" placeholder="Postal / Zip Code" required>
+                            <select name="country" required>
                                     <option value="">--Please Select Country--</option>
                                     <option value="Afghanistan">Afghanistan</option>
                                     <option value="Åland Islands">Åland Islands</option>
@@ -307,7 +307,7 @@
                             </select>
                         </div><br><br>
                         <div class="button">
-                            <a href="submit.html">Send</a>
+                            <a href="submit.html"><input type="submit"></a>
                         </div><br>
                         
                 </fieldset> 
