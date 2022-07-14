@@ -1,0 +1,144 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    border: none;
+}
+
+  th, td {
+    padding: 5px;
+    text-align: left;    
+    text-align: center;
+    width: 130px;
+    height: 100px;
+  }
+
+table .title{
+    font-size: 40px;
+    font-weight: 500;
+    width: fit-content;
+}
+
+table .subtitle {
+    font-weight: 200;
+}
+
+table .cyan {
+    background-color: #daecf6;
+    border: none;
+    border-collapse: collapse;
+}
+
+table .yellow {
+    background-color: #eeefe3;
+    border: none;
+    border-collapse: collapse;
+}
+
+table .green {
+    background-color: #e4f3f1;
+    border: none;
+    border-collapse: collapse;
+}
+
+table .col-1 {
+    background-color: #d0c9e0;
+    border: 2px solid #7f68a9;
+}
+
+table .col-1 .title {
+    color: #56398d;
+}
+
+table .col-1 .subtitle {
+    color: #56398d;
+}
+
+table .col-2 {
+    background-color: #bcdeef;
+    border: 2px solid #2a9eca;
+    border-left: none;
+    border-right: none;
+}
+
+table #topcol-2{
+    border-right: 2px solid #2a9eca;
+}
+
+table .col-2 .title {
+    color: #008bbf;
+}
+
+table .col-2 .subtitle {
+    color: #008bbf;
+}
+
+table .col-3 {
+    background-color: #b1d1e1;
+    border: 2px solid #08507b;
+}
+
+table .col-3 .title {
+    color: #0c6084;
+}
+
+table .col-3 .subtitle {
+    color: #0c6084;
+}
+
+table .col-4 {
+    background-color: #d4d5c0;
+    border: 2px solid #4f5a07;
+    border-left: none;
+    border-right: none;
+}
+
+table .col-4 .title {
+    color: #606824;
+}
+
+table .col-4 .subtitle {
+    color: #606824;
+}
+
+table .col-5 {
+    background-color: #e3e4cd;
+    border: 2px solid #919763;
+}
+
+table .col-5 .title {
+    color: #9aa13e;
+}
+
+table .col-5 .subtitle {
+    color: #9aa13e;
+}
+
+table .col-6 {
+    background-color: #cce9e7;
+    border-top: 2px solid #75ccc8;
+    border-bottom: 2px solid #75ccc8;
+}
+
+table .col-6 .title {
+    color: #2cb4ad;
+}
+
+table .col-6 .subtitle {
+    color: #2cb4ad;
+}
+
+table .col-7 {
+    background-color: #f1cfd5;
+    border: 2px solid #d97387;
+}
+
+table .col-7 .title {
+    color: #ba0c2d;
+}
+
+table .col-7 .subtitle {
+    color: #ba0c2d;
+}
