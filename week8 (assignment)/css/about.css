@@ -56,14 +56,15 @@ body {
   font-size: 14px;
 }
 
+.nav-right a:hover {
+  color: #ff6a00;
+}
+/*-- Close Navbar --*/
+
 .container1 .box {
     display: flex;
     margin: 0 100px;
     margin-top: 100px;
-}
-
-.container1 {
-    padding-bottom: 200px;
 }
 
 .container1 .box .col-left{
@@ -128,8 +129,6 @@ body {
   margin-left: 10px;
   padding-top: 2px;
 }
-
-/*-- Close Navbar --*/
 /*-- Close Container 1 --*/
 
 /*-- Open Container 2 --*/
@@ -196,14 +195,10 @@ body {
 
 /*-- Open Container 3 --*/
 .container3 {
-    background-image: url(../img/background.png);
-    background-repeat: no-repeat;
-    background-position: left -300px bottom -380px;
-    background-size: 1830px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 250px;
+    margin-top: 150px;
   }
   
   .container3 .title {
@@ -226,6 +221,7 @@ body {
     display: flex;
     width: 80vw;
     margin: 80px;
+    margin-bottom: auto;
   }
   
   .container3 .row .col-left {
@@ -282,10 +278,24 @@ body {
   .container3 .row .col-right img {
     width: 100%;
   }
+
+  .container3 .box {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 200px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
   
   #row2 {
     flex-direction: row-reverse;
-    margin-top: 100px;
+    margin-top: 150px;
   }
   
   #row2 .col-left {
@@ -305,7 +315,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 250px;
 }
 
 .container4 .title {
@@ -457,6 +466,12 @@ body {
   font-weight: 700;
   letter-spacing: 0.2px;
 }
+  
+.banner .row #thirdcol a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
 
 .banner .row #thirdcol h3 {
   margin-top: 8px;
@@ -489,6 +504,12 @@ body {
 @media screen and (max-width: 1200px) {
   .container1 {
     background-image: none;
+  }
+
+  .container3 .box {
+    background-image: none;
+    padding-top: 0;
+    padding-bottom: 150px;
   }
 
   .navbar {
@@ -529,7 +550,7 @@ body {
 
     .container3 .row {
       flex-direction: column-reverse;
-      margin: 50px;
+      margin: 40px;
     }
   
     #row2 {
@@ -560,10 +581,6 @@ body {
     .container3 .row .col-right {
       width: 100%;
       justify-content: center;
-    }
-  
-    .container3 .row .col-right img {
-      width: 60%;
     }
 
     .container4 .row {
@@ -600,11 +617,6 @@ body {
       width: 100%;
       justify-content: center;
     }
-  
-    .container4 .row .col-right img {
-      width: 60%;
-    }
-  
 }
 
 
@@ -713,7 +725,4 @@ body {
     margin-top: 150px;
   }
 
-  .container4 {
-    margin-top: 150px;
-  }
 }

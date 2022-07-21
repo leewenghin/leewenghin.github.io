@@ -1,0 +1,470 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: auto;
+}
+
+/*-- Open Container 1 --*/
+.container1 {
+    background-image: url(../img/top-left-corner.png),
+    url(../img/top-right-corner.png);
+    background-repeat: no-repeat;
+    background-position: left top, right top;
+    background-size: 112px, 179px;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.icon {
+    display: none;
+    position: absolute;
+    right: 30px;
+    top: 37px;
+    color: #737373;
+}
+
+/*-- Open Navbar --*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    padding-left: 200px;
+    padding-right: 230px;
+}
+
+.nav-left img {
+    width: 180px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right a {
+    color: #737373;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.nav-right a:hover {
+  color: #ff6a00;
+}
+/*-- Close Navbar --*/
+/*-- Close Container 1 --*/
+
+/*-- Open Container 6 --*/
+.container1 .box {
+    margin: 100px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .box .title {
+    text-align: center;
+  }
+  
+  .box .title h3 {
+    color: #ff7474;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .box .title h1 {
+    color: #252B42;
+    font-size: 40px;
+    margin: 0;
+  }
+  
+  .box .title p {
+    color: #737373;
+  }
+  
+  .container1 .box .box-btm {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .container1 .box .box-btm form {
+    background-color: white;
+    box-shadow: gainsboro 0px 0px 3px 3px;
+    width: 580px;
+    padding: 35px;
+    padding-top: 45px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #6f6565;
+  }
+
+  .container1 .box .box-btm form .row {
+    margin-bottom: 50px;
+  }
+
+  .container1 .box .box-btm form #thirdrow {
+    margin-bottom: 0;
+  }
+
+  .container1 .box .box-btm .col-left {
+    box-shadow: gainsboro 0px 0px 3px 3px;
+    padding: 30px 35px;
+    margin: 0 30px;
+    padding-top: 10px;
+  }
+
+  .container1 .box .box-btm .col-left .sub-row {
+    display: flex;
+    margin: 20px 0;
+  }
+
+  .container1 .box .box-btm .col-left .sub-row a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .container1 .box .box-btm .col-left .sub-row img{
+    width: 48px;
+    margin-right: 20px;
+  }
+  
+
+  .container1 .box .box-btm .col-left .sub-row h4{
+    color: #252B42;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+
+  .container1 .box .box-btm .col-left .sub-row p{
+    color: #8F8F8F;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  #mail {
+    word-break: break-all;
+  }
+  
+  .box .row input {
+    margin-top: 10px;
+    border: 1px solid #c6bbbb;
+    box-shadow: #c6bbbb 0px 0px 1px 0.5px;
+    height: 35px;
+  }
+  
+  .box .row .name {
+    width: 50%;
+  }
+  
+  .box .row .name input {
+    width: 100%;
+  }
+  
+  .box .row .email {
+    width: 50%;
+  }
+  
+  .box .row .email input {
+    width: 100%;
+  }
+  
+  #firstrow {
+    display: flex;
+  }
+  
+  #firstrow .name {
+    margin-right: 50px;
+  }
+  
+  .box .row .subject {
+    width: 100%;
+  }
+  
+  .box .row .subject input {
+    width: 100%;
+  }
+  
+  .box .row .message {
+    width: 100%;
+  }
+  
+  .box .row .message textarea {
+    margin-top: 10px;
+    width: 100%;
+    padding-bottom: 80px;
+    border: 1px solid #c6bbbb;
+    box-shadow: #c6bbbb 0px 0px 1px 0.5px;
+    resize: none;
+  }
+  
+  .box .button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box .button input {
+    background-color: #00a3e9;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    width: 149px;
+    height: 46px;
+    border-radius: 5px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+
+/*-- Open Banner --*/
+.banner {
+    padding: 50px 0;
+    background-color: #2D4059;
+    color: white;
+  }
+  
+  .banner .row {
+    display: flex;
+  }
+  
+  .banner .row .col {
+    width: 40%;
+  }
+  
+  .banner .row #thirdcol {
+    width: 35%;
+  }
+  
+  .banner .row #firstcol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+  }
+  
+  .banner .row #firstcol img {
+    width: 170px;
+  }
+  
+  .banner .row #secondcol {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .banner .row #secondcol h3 {
+    margin-top: 8px;
+    font-size: 18px;
+  }
+  
+  .banner .row #secondcol .link {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+  }
+  
+  .banner .row #secondcol .link .link-row {
+    width: 80px;
+    margin: 8px 0;
+  }
+  
+  .banner .row #secondcol .link .link-row a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+  }
+  
+  .banner .row #thirdcol a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .banner .row #thirdcol h3 {
+    margin-top: 8px;
+    font-size: 18px;
+  }
+  
+  .banner .row #thirdcol img {
+    width: 23px;
+    margin-right: 10px;
+  }
+  
+  .banner .row #thirdcol .contact-row {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .banner .row #thirdcol .contact-row span {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: white;
+  }
+  
+  #email {
+    word-break: break-all;
+  }
+  /*-- Close Banner --*/
+
+  @media screen and (max-width: 1200px) {
+    .container1 {
+        background-image: none;
+    }
+
+    .navbar {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .container1 .box {
+        margin: 50px 0;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .container1 .box {
+        max-width: 700px;
+    }
+
+    .container1 .box .box-btm {
+        flex-wrap: wrap;
+    }
+
+    .container1 .box .box-btm .col-left {
+        width: 90%;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .container1 .box .box-btm form {
+        width: 90%;
+    }
+
+    .container1 .box .box-btm form .row {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .box .title {
+        margin: 0 10px;
+    }
+    
+    .container1 .box .box-btm {
+        margin: 0 10px;
+        margin-top: 50px;
+    }
+    
+      .container1 .box .box-btm form {
+        width: 80%;
+      }
+
+      .container1 .box .box-btm .col-left {
+        width: 80%;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    
+      #firstrow {
+        flex-direction: column;
+      }
+    
+      #firstrow .name {
+        margin: 0;
+      }
+    
+      .container1 .box .row .name {
+        width: 100%;
+      }
+    
+      .container1 .box .row .email {
+        margin-top: 17px;
+        width: 100%;
+      }
+    
+
+    .navbar {
+      padding-left: 0;
+    }
+  
+    .nav-right {
+      display: none;
+    }
+  
+    .icon {
+      display: block;
+    }
+  
+    .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+  
+    .overlay-content a {
+      border-bottom: 1px solid;
+    }
+  
+    .overlay a {
+      padding: 15px;
+      text-decoration: none;
+      font-size: 36px;
+      color: #737373;
+      display: flex;
+      flex-direction: column;
+      transition: 0.3s;
+    }
+  
+    .overlay a:hover,
+    .overlay a:focus {
+      color: #f1f1f1;
+    }
+  
+    .overlay .closebtn {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+    }
+
+    .banner .row {
+        flex-wrap: wrap;
+      }
+    
+      .banner .row #firstcol {
+        width: 100%;
+        display: block;
+        margin: 0 10px;
+      }
+    
+      .banner .row #secondcol {
+        width: 100%;
+        margin: 50px;
+        justify-content: left;
+      }
+    
+      .banner .row #thirdcol {
+        width: 100%;
+        margin: 0 50px;
+      }
+}

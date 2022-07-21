@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact - DM</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <script src="https://kit.fontawesome.com/9d8effef28.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="img/logo-icon.png">
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container1">
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="resume.html">Resume</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+              </div>
+
+            <div class="navbar">
+                <div class="nav-left">
+                    <a href="index.html"><img src="img/logo.png" alt=""></a>
+                </div>                
+                <div class="nav-right" id="topnav">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="resume.html">Resume</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                    <i id="icon" class="fa-solid fa-bars fa-xl" aria-hidden="true"></i>                      
+                </a>
+            </div>
+
+            <div class="box">
+                <div class="title">
+                    <h3>Get in touch</h3>
+                    <h1>Contact</h1>
+                    <p>I'm happy to answer your questions. Fill out the form and I'll be in touch as soon as possible.</p>
+                </div>
+                <div class="box-btm">
+                    <div class="col-left">
+                        <div class="sub-row">
+                            <a href="https://goo.gl/maps/WS9cwFwB62HCuJDv5" target="_blank">
+                                <img src="img/location-icon2.png" alt="">
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>No.7-2F, Jalan 5/154D, Taman Desa Cheras, 56000 KL</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="sub-row">
+                            <a href="mailto:leewenghin1109@e.newera.edu.my">
+                                <img src="img/mail-icon2.png" alt="">
+                                <div>
+                                    <h4>Email</h4>
+                                    <p id="mail">leewenghin1109@e.newera.edu.my</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="sub-row">
+                            <a href="tel:+60163086381">
+                                <img src="img/contact-icon.png" alt="">
+                                <div>
+                                    <h4>Call</h4>
+                                    <p>+60 16 308 6381</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.132835371484!2d101.7380984!3d3.0591193000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc35111e086ed3%3A0x2b150ec26a379dfb!2s7%2C%20Jalan%205%2F154d%2C%20Taman%20Desa%20Cheras%2C%2056000%20Kuala%20Lumpur%2C%20Wilayah%20Persekutuan%20Kuala%20Lumpur!5e0!3m2!1sen!2smy!4v1654685215835!5m2!1sen!2smy" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+                    </div>
+
+                    <form action="submit.html">
+                        <div id="firstrow" class="row">
+                            <div class="name">
+                                Your Name<br>
+                                <input type="text" name="firstname" required><br>
+                            </div>
+                            <div class="email">
+                                Your Email:<br>
+                                <input type="email" name="lastname" required><br><br>
+                            </div>
+                        </div>
+                        <div id="secondrow" class="row">
+                            <div class="subject">
+                                Subject<br>
+                                <input type="text" name="lastname" required><br><br>
+                            </div>
+                        </div>
+                        <div id="thirdrow" class="row">
+                            <div class="message">
+                                Message<br>
+                                <textarea name="text" id="" cols="70" rows="10" required></textarea><br><br>
+                            </div>
+                        </div>
+                    <div class="button">
+                        <input type="submit" value="Send Message">
+                    </div>
+                    </form> 
+                </div>
+            </div>
+        </div>
+          
+        <!-- Navbar Menu-->
+        <script>
+            function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+            }
+            
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
+        <!-- Navbar Menu--> 
+
+        <div class="banner">
+            <div class="row">
+                <div id="firstcol" class="col">
+                    <a href="index.html"><img src="img/logo(black).png" alt=""></a>
+                </div>
+                <div id="secondcol" class="col">
+                    <h3>Personal Info</h3>
+                    <div class="link">
+                        <div class="link-row"><a href="index.html">Home</a>  </div>
+                        <div class="link-row"><a href="about.html">About</a></div>
+                        <div class="link-row"><a href="resume.html">Resume</a></div>
+                        <div class="link-row"><a href="projects.html">Projects</a></div>
+                        <div class="link-row"><a href="contact.html">Contact</a></div>
+                    </div>
+                </div>
+                <div id="thirdcol" class="col">
+                    <div><h3>Get In Touch</h3></div>
+                    <div class="contact-row">
+                        <a href="tel:+60163086381">
+                            <img src="img/phone-icon.png" alt="">
+                            <span>+60 16 308 6381</span>
+                        </a>
+                    </div>
+                    <div class="contact-row">
+                        <a href="https://goo.gl/maps/e3W5NpvRkHWHwszq9" target="_blank">
+                            <img src="img/location-icon.png" alt="">
+                            <span>No.7-2F, Jalan 5/154D, Taman Desa Cheras, 56000 KL</span>
+                        </a>
+                    </div>
+                    <div class="contact-row">
+                        <a href="mailto:leewenghin1109@e.newera.edu.my">
+                            <img src="img/mail-icon.png" alt="">
+                            <span id="email">leewenghin1109@e.newera.edu.my</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
