@@ -1,0 +1,564 @@
+:root {
+  /* background color */
+  --bg-green-full: #064635;
+  --bg-yellow-full: #f4eea9;
+  --bg-yellow-transparent: rgba(244, 238, 169, 0.9);
+  --bg-green-transparent: rgba(81, 146, 89, 0.3);
+  --bg-dark-orange: #ef6c58aa;
+  --bg-dark-orange-hover: #ef6c58;
+  --bg-light-orange: #f3d1bf;
+  --bg-btn-green: #519259e5;
+  --bg-btn-lightBlue: #66bfbfe5;
+  --bg-btn-brown: #cca035e5;
+  --bg-btn-blue: #5899e7e5;
+
+  /* font-color */
+  --fc-black: black;
+  --fc-white: white;
+
+  /* max-width / height*/
+  --mx-w: 1906px;
+  --mx-h: 1072px;
+
+  /* min-width/ height */
+  --mn-w5: 500px;
+
+  /* font-weight */
+  --fw-4: 400;
+  --fw-5: 500;
+  --fw-6: 600;
+  --fw-7: 700;
+
+  /* font-size */
+  --fs-top-foot-3xl: 1.5rem;
+  --fs-top-foot-xxl: 18px;
+
+  --fs-drop-3xl: 1.7rem;
+  --fs-drop-xxl: 1.25rem;
+
+  --fs-t1-3xl: 8rem;
+  --fs-t1-xxl: 6rem;
+  --fs-t1-md: 4rem;
+  --fs-t1-sm: 2.5rem;
+
+  --fs-t2-3xl: 4rem;
+  --fs-t2-xxl: 3rem;
+  --fs-t2-sm: 2rem;
+
+  --fs-st2-3xl: 3rem;
+  --fs-st2-xxl: 1.5rem;
+  --fs-st2-md: calc(0.7rem + 0.5vw);
+
+  --fs-t3-3xl: 3rem;
+  --fs-t3-xxl: 2rem;
+
+  --fs-t4-3xl: 8rem;  
+  --fs-t4-xxl: 6rem;
+  --fs-t4-lg: 5rem;
+  --fs-t4-md: 4rem;
+  --fs-t4-sm: 3rem;
+
+  --fs-t5-3xl: 4.5rem;
+  --fs-t5-xxl: 2.8rem;
+  --fs-t5-lg: 2rem;
+  --fs-t5-sm: 2rem;
+
+  --fs-p1-3xl: 4rem;
+  --fs-p1-xxl: 2.25rem;
+  --fs-p1-sm: 1.5rem;
+
+  --fs-p2-3xl: 3rem;
+  --fs-p2-xxl: 1.8rem;
+
+  --fs-p3-3xl: 1.8rem;
+  --fs-p3-xxl: 1.5rem;
+
+  --fs-p4-3xl: 3.3rem;
+  --fs-p4-xxl: 2.2rem;
+  --fs-p4-xl: 1.9rem;
+  --fs-p4-lg: 1.5rem;
+
+  --fs-p5-xxl: 1.8rem;
+  --fs-p5-sm: 1.4rem;
+
+  --fs-si1-3xl: 2.5rem;
+  --fs-si1-xxl: 1.5rem;
+  --fs-si1-md: calc(0.7rem + 0.5vw);
+}
+/* ############################################################################ */
+/* Below is the class of the text size and background colour size and other*/
+/* ############################################################################ */
+
+/* slide-show or background center title and content */
+
+/* slider title body title */
+.t1 {
+  font-size: var(--fs-t1-xxl) !important;
+  font-weight: var(--fw-5) !important;
+}
+
+.t2 {
+  font-size: var(--fs-t2-xxl) !important;
+  font-weight: var(--fw-6) !important;
+}
+
+/* body subtitle */
+.t3 {
+  font-weight: var(--fw-6) !important;
+  font-size: var(--fs-t3-xxl) !important;
+}
+
+.t4 {
+  font-weight: var(--fw-6) !important;
+  font-size: var(--fs-t4-xxl) !important;
+}
+
+.t5 {
+  font-size: var(--fs-t5-xxl) !important;
+  font-weight: var(--fw-6) !important;
+}
+
+/* slider content */
+.p1 {
+  font-size: var(--fs-p1-xxl) !important;
+}
+
+/* body subtitle content */
+.p2 {
+  font-size: var(--fs-p2-xxl) !important;
+}
+
+/* specify for beach pulau img inside content */
+.p3 {
+  font-size: var(--fs-p3-xxl) !important;
+}
+
+.p4 {
+  font-size: var(--fs-p4-xxl) !important;
+}
+
+/* Paragraph of attractions */
+.p5 {
+  font-size: var(--fs-p5-xxl) !important;
+}
+
+/* slider location link, body content */
+.pin-t2 {
+  font-size: var(--fs-st2-xxl) !important;
+}
+
+.pin-i1 {
+  font-size: var(--fs-i1-xxl) !important;
+}
+
+/* slider / background height */
+.s_bg-h {
+  min-height: var(--mn-w5) !important;
+  max-height: var(--mx-h) !important;
+  height: 100vw;
+}
+
+
+
+@media screen and (min-width: 2800px) {
+  .t1 {
+    font-size: var(--fs-t1-3xl) !important;
+  }
+
+  .t2 {
+    font-size: var(--fs-t2-3xl) !important;
+  }
+
+  .t3 {
+    font-size: var(--fs-t3-3xl) !important;
+  }
+
+  .t4 {
+    font-size: var(--fs-t4-3xl) !important;
+  }
+
+  .t5 {
+    font-size: var(--fs-t5-3xl) !important;
+  }
+
+  .p1 {
+    font-size: var(--fs-p1-3xl) !important;
+  }
+
+  .p2 {
+    font-size: var(--fs-p2-3xl) !important;
+  }
+
+  .p3 {
+    font-size: var(--fs-p3-3xl) !important;
+  }
+
+  .p4 {
+    font-size: var(--fs-p4-3xl) !important;
+  }
+
+  .pin-t2 {
+    font-size: var(--fs-st2-3xl) !important;
+  }
+
+  .pin-i1 {
+    font-size: var(--fs-si1-3xl) !important;
+  }
+}
+
+/* slider / image width 100% after 1300px */
+@media (min-width: 1300px) {
+  .w-lg-100 {
+    width: 100% !important;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .p4 {
+    font-size: var(--fs-p4-xl) !important;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .p4 {
+    font-size: var(--fs-p4-lg) !important;
+  }
+  .t4 {
+    font-size: var(--fs-t4-lg) !important;
+  }
+  .t5 {
+    font-size: var(--fs-t5-lg) !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .t1 {
+    font-size: var(--fs-t1-md) !important;
+  }
+
+  .t4 {
+    font-size: var(--fs-t4-md) !important;
+  }
+
+  .pin-t2 {
+    font-size: var(--fs-st2-md) !important;
+  }
+
+  .pin-i1 {
+    font-size: var(--fs-i1-md) !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .t1 {
+    font-size: var(--fs-t1-sm) !important;
+  }
+
+  .t2 {
+    font-size: var(--fs-t2-sm) !important;
+  }
+
+  .t4 {
+    font-size: var(--fs-t4-sm) !important;
+  }
+
+  .t2 {
+    font-size: var(--fs-t5-sm) !important;
+  }
+
+  .p1 {
+    font-size: var(--fs-p1-sm) !important;
+  }
+
+  .p5 {
+    font-size: var(--fs-p5-sm) !important;
+  }
+}
+
+/* ############################################################################ */
+/* Below is the class of header and footer attribute and element */
+/* ############################################################################ */
+/* whole html file */
+* {
+  font-family: "Edu SA Beginner", cursive;
+  /* font-weight: var(--fw-5); */
+}
+
+.container-1920 {
+  max-width: var(--mx-w);
+  margin: auto;
+}
+
+/* top-navbar */
+.dropdown-item.item-fw-bold {
+  font-weight: var(--fw-5) !important;
+}
+
+.dropdown-item.active {
+  font-weight: var(--fw-7) !important;
+  background-color: inherit !important;
+  color: var(--fc-black) !important;
+}
+
+.scrolled-down {
+  transform: translateY(-100%);
+  transition: all 0.25s ease-in-out;
+}
+.scrolled-up {
+  transform: translateY(0);
+  transition: all 0.25s ease-in-out;
+}
+
+.nav-link.active {
+  font-weight: var(--fw-7);
+}
+
+.nav-link:hover {
+  font-weight: var(--fw-7);
+}
+
+.bg-top-nav-green {
+  background-color: var(--bg-green-full);
+}
+
+.bg-dropdown-yellow-green {
+  background-color: var(--bg-yellow-transparent) !important;
+}
+
+.bg-mobile-dropdown-green-yellow {
+  background-color: var(--bg-green-full) !important;
+}
+
+.bg-dropdown-yellow-width {
+  width: fit-content !important;
+}
+
+.btn {
+  --bs-btn-padding-x: 1.5rem !important;
+}
+
+.btn-green {
+  background-color: var(--bg-btn-green) !important;
+}
+
+.btn-lightBlue {
+  background-color: var(--bg-btn-lightBlue) !important;
+}
+
+.btn-brown {
+  background-color: var(--bg-btn-brown) !important;
+}
+
+.fs-top-nav-vm {
+  font-size: var(--fs-top-foot-xxl) !important;
+}
+
+.fs-drown_menu {
+  font-size: var(--fs-drop-xxl) !important;
+}
+
+.text-light-lg {
+  color: var(--fc-white) !important;
+}
+
+.ms-f {
+  margin-left: 3.5rem !important;
+}
+
+.icon_rotate{
+  transform: rotate(90deg);
+}
+
+.navbar-toggler:focus{
+  box-shadow: none !important;
+}
+
+.move-auto-right{
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+/* backtop button */
+#back-top {
+  display: none;
+  position: fixed;
+  padding: 10px 10px;
+  background-color: var(--bg-dark-orange);
+  border-radius: 50%;
+  right: 10px;
+  bottom: 10px;
+  z-index: 1000;
+}
+
+#back-top:hover {
+  padding: 12px 12px;
+  animation: backtop-rotate 1.5s;
+}
+
+#back-top.sticky {
+  display: block;
+}
+
+.left_arrow img{
+  transform: rotateZ(270deg);
+}
+
+.prev-btn:hover .left_arrow{
+  animation: left_arrow_amination 1s infinite;
+}
+
+@keyframes left_arrow_amination {
+  0% {transform: translateX(0px);}
+  50% {transform: translateX(10px);}
+  100% {transform: translateX(0px);}
+}
+
+
+.right_arrow img{
+  transform: rotateZ(90deg);
+  background-color: transparent;
+}
+
+.next-btn:hover .right_arrow{
+  animation: right_arrow_amination 1s infinite;
+}
+
+@keyframes right_arrow_amination {
+  0% {transform: translateX(0px);}
+  50% {transform: translateX(-10px);}
+  100% {transform: translateX(0px);}
+}
+
+@keyframes backtop-rotate {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+
+  50% {
+    transform: rotate(390deg) translate3d(0, 0, 0);
+  }
+
+  70% {
+    transform: rotate(330deg) translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: rotate(360deg) translate3d(0, 0, 0);
+  }
+}
+
+/* footer */
+footer {
+  background-image: url(../images/general/malaysia.png),
+    url(../images/general/Rectanglefooter-round.png);
+  background-size: 40%, cover;
+  background-position: 54% 60%, 0% -0.5%;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+
+footer ul a {
+  font-size: var(--fs-top-foot-xxl) !important;
+  text-decoration: none;
+  color: var(--fc-white);
+}
+
+footer ul a:hover li {
+  text-decoration: none;
+  font-weight: var(--fw-7);
+  color: var(--fc-white);
+}
+
+footer a:hover img {
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.575));
+  filter: drop-shadow(0px 4px 4px rgb(0, 0, 0.575));
+}
+
+#line {
+  width: 70%;
+  height: 1px;
+  background-color: var(--bg-light-orange);
+  bottom: 50px;
+}
+
+@media screen and (min-width: 2000px) {
+  footer {
+    background-size: 35%, cover;
+  }
+}
+
+@media screen and (min-width: 2800px) {
+  .fs-top-nav-vm {
+    font-size: var(--fs-top-foot-3xl) !important;
+  }
+
+  .fs-drown_menu {
+    font-size: var(--fs-drop-3xl) !important;
+  }
+
+  footer ul a {
+    font-size: var(--fs-top-foot-3xl) !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .ms-f {
+    margin-left: 0.8vw !important;
+  }
+
+  footer {
+    background-position-y: 55%, -2.5%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* footer */
+  footer {
+    padding-top: 0px;
+  }
+
+  footer {
+    background-image: none, url(../images/general/Rectanglefooter-round.png);
+    background-position-y: 0%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* top navbar */
+  .bg-dropdown-yellow-green {
+    background-color: var(--bg-green-transparent) !important;
+    min-width: fit-content !important;
+  }
+
+  .bg-mobile-dropdown-green-yellow {
+    background-color: var(--bg-yellow-full) !important;
+  }
+
+  .bg-dropdown-yellow-width {
+    width: inherit !important;
+  }
+
+  .text-dark-md {
+    color: var(--fc-black) !important;
+  }
+
+  .text-dark-md:hover {
+    font-weight: var(--fw-7) !important;
+  }
+
+  .ms-f {
+    margin-left: 0vw !important;
+  }
+  /* footer */
+  #line {
+    width: 85%;
+  }
+
+  .move-auto-right{
+    text-align: left;
+    margin-right: 0px;
+  }
+}

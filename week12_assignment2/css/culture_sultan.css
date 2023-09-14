@@ -1,0 +1,72 @@
+#pin {
+  bottom: 5%;
+  left: 5%;
+}
+
+.mimg {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+}
+
+.cm {
+  margin-top: 0%;
+}
+
+.prev-btn {
+  background-image: linear-gradient(
+    to right,
+    rgba(148, 180, 159, 0.7),
+    rgba(206, 229, 208, 0.7)
+  );
+}
+
+.next-btn {
+  background-image: linear-gradient(
+    to right,
+    rgba(252, 248, 232, 0.7),
+    rgba(236, 179, 144, 0.7)
+  );
+}
+
+.background1 {
+  background-image: url(../images/culture_sultan/b1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.background2 {
+  background-image: url(../images/culture_sultan/b2.png);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.carousel-1 img{
+  filter: brightness(95%);
+}
+
+.carousel-2 img{
+  filter: brightness(95%);
+}
+.carousel-3 img{
+  filter: brightness(95%);
+}
+
+@media screen and (max-width: 440px) {
+  .carousel-1 img {
+    content: url(../images/culture_sultan/m1-500.jpg);
+  }
+
+  .carousel_2 img {
+    content: url(../images/culture_sultan/m2-500.jpg);
+  }
+
+  .carousel_3 img {
+    content: url(../images/culture_sultan/m3-500.jpg);
+  }
+
+  .cm {
+    margin-top: 3%;
+  }
+}

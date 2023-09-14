@@ -1,0 +1,531 @@
+:root {
+    --bg-gradient-black: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
+    --bg-btn-green: #519259E5;
+    --bg-btn-lightBlue: #66BFBFE5;
+    --bg-btn-brown: #CCA035E5;
+    --bg-btn-blue: #5899E7E5;
+    --bg-toolsTip-orange: #F0BB62F2;
+    --bg-toolsTip-lightGreen: #a6dc98f1;
+    --bg-info2-lightGreen: #93dd80f1;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.image-fill-black {
+    filter: brightness(60%);
+}
+
+.slidetshow-fixed-heigh {
+    min-height: 500px;
+}
+
+.carousel-caption-middle {
+    position: absolute;
+    right: 18%;
+    top: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateY(-50%);
+    left: 18%;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#first-content {
+    background-image: url(../images/home/Vector_1.png);
+    background-repeat: no-repeat;
+    background-size: 57%;
+    background-position: 75% 69%;
+    width: 80%;
+    height: 100vh;
+    margin-top: 80px;
+}
+
+#chineseTemple {
+    position: relative;
+    width: 100%;
+}
+
+.icon-info {
+    font-size: 30px;
+    --fa-animation-duration: 1s;
+    --fa-beat-fade-opacity: 0.7;
+    --fa-beat-fade-scale: 1.075;
+}
+
+#icon-info_1 {
+    color: var(--bg-toolsTip-orange);
+    right: 0%;
+    top: 5%;
+    z-index: 2;
+}
+
+#icon-info_2 {
+    color: var(--bg-info2-lightGreen);
+}
+
+#first-content-bg1 {
+    width: 60%;
+    top: 10%;
+    right: 1%;
+    z-index: -1;
+}
+
+#first-content-bg2 {
+    width: 40%;
+    top: 28%;
+    left: -7%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.custom-tooltip .tooltip-inner {
+    --bs-tooltip-bg: var(--bg-toolsTip-orange);
+    color: black !important;
+    font-size: calc(20px + 0.5vw);
+    font-weight: 700;
+}
+
+.custom-tooltip .tooltip-arrow {
+    --bs-tooltip-bg: var(--bg-toolsTip-orange);
+}
+
+.custom-tooltip2 .tooltip-inner {
+    --bs-tooltip-bg: var(--bg-toolsTip-lightGreen);
+    color: black !important;
+    font-size: calc(20px + 0.5vw);
+    font-weight: 700;
+}
+
+.custom-tooltip2 .tooltip-arrow {
+    --bs-tooltip-bg: var(--bg-toolsTip-lightGreen);
+}
+
+#second-content {
+    background-color: #DCF5C8;
+    height: 220vh;
+}
+
+#second-content span {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#second-content-h1 {
+    z-index: 2;
+}
+
+#second-content-p1 {
+    width: 50%;
+    z-index: 2;
+}
+
+#b-leaf {
+    width: 65%;
+    opacity: 0.85;
+    top: 5%;
+    left: 2%;
+}
+
+#waterfall {
+    width: 50%;
+    top: 30%;
+    left: 7%;
+}
+
+#river {
+    width: 50%;
+    top: 57%;
+    left: 40%;
+}
+
+#s-leaf {
+    bottom: 4%;
+    right: 8%;
+}
+
+#s-leaf i {
+    left: 50%;
+}
+
+#s-leaf img {
+    width: 40%;
+    left: 50%;
+}
+
+#third-content-text {
+    width: 85%;
+}
+
+#third-content {
+    background: url(../images/home/newera.png), #a1959540;
+    background-position-x: -10%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.row {
+    margin-right: 0 !important;
+}
+
+#third-content-img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+@media screen and (min-width : 2000px) {
+    #first-content {
+        height: 85vh;
+        background: none;
+    }
+
+    #second-content {
+        height: 150vh;
+    }
+
+    #waterfall {
+        width: 40%;
+        top: 30%;
+        left: 12%;
+    }
+    
+    #river {
+        width: 40%;
+        top: 57%;
+        left: 45%;
+    }
+    
+    #s-leaf {
+        bottom: 4%;
+        right: 12%;
+    }
+}
+
+@media screen and (min-width : 3600px) {
+    #first-content {
+        height: 50vh;
+    }
+
+    #second-content {
+        height: 80vh;
+    }
+
+    #waterfall {
+        width: 40%;
+        top: 30%;
+        left: 12%;
+    }
+    
+    #river {
+        width: 40%;
+        top: 57%;
+        left: 45%;
+    }
+    
+    #s-leaf {
+        bottom: 7%;
+        right: 12%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #first-content {
+        background-position: 75% 57%;
+    }
+
+    #second-content {
+        height: 200vh;
+    }
+
+    #second-content-p1 {
+        width: 80%;
+        z-index: 2;
+    }
+
+    #b-leaf {
+        width: 65%;
+        opacity: 0.85;
+        top: 5%;
+        left: 2%;
+    }
+
+    #waterfall {
+        width: 60%;
+        top: 32%;
+        left: 10%;
+    }
+
+
+    #river {
+        width: 60%;
+        top: 57%;
+        left: 33%;
+    }
+
+    #s-leaf {
+        bottom: 4%;
+        right: 3%;
+    }
+
+}
+
+@media screen and (max-width: 1149px) {
+    #first-content {
+        background: none;
+        height: 78vh;
+    }
+
+    #first-content-bg3 {
+        top: 80%;
+    }
+
+    #icon-info_1 {
+        right: 0%;
+        top: 9%;
+    }
+}
+
+@media screen and (max-width: 993px) {
+    #first-content {
+        background: none;
+        height: 80vh;
+    }
+
+    #first-content-bg1 {
+        width: 65%;
+        top: 19%;
+        right: -1%;
+    }
+
+    #icon-info_1 {
+        right: 0%;
+        top: 19%;
+    }
+
+    #second-content {
+        height: 180vh;
+    }
+
+    #second-content-p1 {
+        width: 100%;
+        z-index: 2;
+    }
+
+    #b-leaf {
+        width: 65%;
+        opacity: 0.85;
+        top: 10%;
+        left: 2%;
+    }
+
+    #waterfall {
+        width: 60%;
+        top: 32%;
+        left: 10%;
+    }
+
+
+    #river {
+        width: 60%;
+        top: 57%;
+        left: 33%;
+    }
+
+    #s-leaf {
+        bottom: 4%;
+        right: 3%;
+    }
+
+    #third-content-img div img {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #first-content {
+        margin-top: 50px;
+        height: auto;
+    }
+
+    #first-content-bg1 {
+        width: 65%;
+        top: 25%;
+        right: -5%;
+        opacity: 0.7;
+    }
+
+    #first-content-bg2 {
+        width: 40%;
+        top: 55%;
+        left: -7%;
+        z-index: -1;
+        opacity: 0.2;
+    }
+
+    #icon-info_1 {
+        right: 0%;
+        top: 27%;
+    }
+
+    #second-content {
+        height: 170vh;
+    }
+
+    #second-content-p1 {
+        width: 95%;
+        margin: auto;
+        z-index: 2;
+    }
+
+    #b-leaf {
+        width: 65%;
+        opacity: 0.85;
+        top: 20%;
+        left: 2%;
+    }
+
+    #waterfall {
+        width: 60%;
+        top: 42%;
+        left: 10%;
+    }
+
+
+    #river {
+        width: 60%;
+        top: 63%;
+        left: 33%;
+    }
+
+    #s-leaf {
+        bottom: 3%;
+        right: 3%;
+    }
+
+    #third-content {
+        background-position-y: 70%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #icon-info_1 {
+        right: 20%;
+        top: 55%;
+    }
+
+    .carousel-caption-middle {
+        position: absolute;
+        right: 5%;
+        top: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        transform: translateY(-50%);
+        left: 5%;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+    #chineseTemple {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+    }
+
+    #second-content {
+        height: auto;
+    }
+
+    #second-content-p1 {
+        width: 90%;
+        margin: auto;
+        z-index: 2;
+    }
+
+    #s-leaf {
+        bottom: 7%;
+        right: 0%;
+    }
+    
+    #s-leaf img {
+        width: 40%;
+    }
+
+    #third-content {
+        background-position-y: 70%;
+    }
+
+    #third-content-img div img {
+        width: 50%;
+    }
+
+    .row {
+        --bs-gutter-x: 0 !important;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    #icon-info_1 {
+        right: 10%;
+        top: 70%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    #carousel_1 img{
+        content: url(../images/home/home_moutain_500px.jpg);
+    }
+
+    #carousel_2 img{
+        content: url(../images/home/home_beach_500px.jpg);
+    }
+
+    #carousel_3 img{
+        content: url(../images/home/home_temple_500px.jpg);
+    }
+
+    #s-leaf {
+        bottom: 8%;
+        right: 0%;
+    }
+    
+    #s-leaf img {
+        width: 30%;
+        left: 50%;
+    }
+}
+
+@media screen and (min-width: 2570px) {
+    #first-content {
+        height: 45vh;
+    }
+}
+
+
+@media screen and (min-width: 3800px) {
+    #first-content {
+        height: 40vh;
+    }
+
+    #second-content {
+        height: 65vh;
+    }
+
+    #second-content-h1 {
+        margin: auto;
+    }
+
+    #second-content-p1 {
+        width: 100%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,174 @@
+html,body {
+  background-color: #D2DDCD !important;
+}
+.gallery .item img {
+  border-radius: 20px;
+}
+
+.gallery .item {
+  transition: .5s ease-in-out;
+}
+.gallery .item:hover {
+  filter: brightness(80%)
+}
+.main-title img {
+  width: 90px;
+}
+.bg1{
+  background-image: url(../images/mountain_penang/background.png);
+  background-position:left;
+  background-size: cover;
+}
+image{
+  width: 100%;
+  border-radius:5px;
+}
+.wd-50{
+  width: 45%;
+}
+.texthover:hover{
+  color: rgb(85, 210, 210);
+}
+div p{
+  font-size: 200%;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+.prev-btn{
+  /* background-image: linear-gradient(to right, rgba(191, 77, 42, 0.7) , rgba(63, 201, 50,0.7)); */
+  background-image: linear-gradient(to right, rgba(148, 208, 186, 0.7),  rgba(116, 145, 75, 0.7));
+}
+
+.next-btn{
+  background-image: linear-gradient(to right, rgba(26, 26, 28, 0.7),  rgba(123, 58, 237, 0.7));
+}
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  div p{
+    font-size: 4vw;
+  }
+  .wd-50{
+    width: 90%;
+  }
+  #activity2{
+    display: none!important;
+  }
+  body, html {
+    background-color: #D2DDCD;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  #activity2mobile{
+    display: none!important;
+  }
+}
+
+.bg {
+  background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/mountain_penang/penang_cover.jpg);
+  /* Full height */
+  min-height: 970px; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: white;
+}
+.accordion-button{
+  background-color: #519259!important;
+  color: white!important;
+}
+#pin{
+  bottom: 5%;
+  left: 5%;
+}
+#pin p {
+  font-size: calc(10px + 1vw);
+}
+.white a{
+  color: white;
+}
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+#shop1{
+  background-image: url(../images/mountain_penang/Shop1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#shop2{
+  background-image: url(../images/mountain_penang/Shop2.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#shop3{
+  background-image: url(../images/mountain_penang/Shop3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 3800px) {
+  .bg{
+    max-height: 14.5vw;
+  }
+
+  .bg h1{
+    font-size: 1vw;
+  }
+
+  h3:not(footer h3){
+    font-size: 0.8vw !important;
+  }
+
+  h1{
+    font-size: 0.8vw !important;
+  }
+
+  p:not(footer p){
+    font-size: 0.8vw !important;
+  }
+
+  strong{
+    font-size: 0.5vw;
+  }
+
+  button{
+    font-size: 0.5vw !important;
+  }
+}

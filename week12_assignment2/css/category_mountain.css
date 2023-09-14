@@ -1,0 +1,361 @@
+:root{
+    --bg-btn-green: rgba(81, 146, 89, 0.9);
+    --tooltip-green: #8FCD80;
+    --card-yellow: rgba(244, 238, 169, 1);
+    --card-gray: rgba(116, 116, 116, 0.2);
+}
+
+.image-fill-black{
+    filter: brightness(50%);
+}
+
+.slideshow-content-position{
+    top: 0;
+    left: 20px;
+}
+
+.carousel-control-prev {
+    width: 30px !important ;
+    margin-left: 4%;
+}
+
+.btn{
+    border: var(--bg-btn-green) 2px solid !important;
+}
+
+.btn:hover{
+    border: white 2px solid !important;
+}
+
+.bg-btn-green{
+    background-color: var(--bg-btn-green) !important;
+}
+
+.bg-triangle-green{
+    background-image: url(../images/category_mountain/bg-green-triangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-triangle-yellow{
+    background-image: url(../images/category_mountain/bg-yellow-triangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.padding-image-top{
+    padding-top: 5vw;
+    padding-bottom: 20vw;
+}
+
+.padding-image-bwl{
+    padding-top: 20vw;
+    padding-bottom: 5vw;
+}
+
+.content_body{
+    padding: 100px 0px;
+}
+
+.bg-triangle-green h1{
+    font-size: calc(18px + 1.5vw);
+}
+
+.bg-triangle-green h2{
+    font-size: calc(10px + 1.5vw);
+}
+
+.bg-triangle-yellow h1{
+    font-size: calc(20px + 3vw);
+}
+
+.bg-triangle-yellow h2{
+    font-size: calc(30px + 1vw);
+}
+
+.decoration_2-position{
+    left: 5%;
+    top: -150%;
+}
+
+#decoration_2{
+    z-index: 1;
+}
+
+.tooltip-inner {
+    background-color: var(--tooltip-green) !important;
+    color: black !important;
+    font-size: calc(20px + 0.5vw);
+    font-weight: 600;
+}
+
+.tooltip-arrow {
+    --bs-tooltip-bg: var(--tooltip-green);
+}
+
+.bg-bottom{
+    background-image: url(../images/category_mountain/bottom-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: 0% 10%;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.third_container_image{
+    z-index: 2;
+}
+
+.icon-info_1{
+    font-size: 40px;
+    color: #f7e036;
+    right: 23%;
+    top: 380%;
+    z-index: 2;
+    animation-name: info_icon_1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.prev-btn{
+    background-image: linear-gradient(to right, rgba(163, 78, 39, 0.7), rgba(222, 205, 73,0.7));
+}
+
+.next-btn{
+    background-image: linear-gradient(to right, rgba(227, 197, 66, 0.7), rgba(50, 171, 201, 0.7));
+}
+  
+
+@keyframes info_icon_1{
+    0% {transform: scale(1); color: #f59236; right: 23%}
+    50% {transform: scale(1.1); color: #d1c62e; right: 22.5%}
+    100% {transform: scale(1); color: #f59236; right: 23%}
+}
+
+.icon-info_2{
+    font-size: 40px;
+    left: 28%;
+    z-index: 2;
+    animation-name: info_icon_2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes info_icon_2{
+    0% {transform: scale(1); color: #f59236; left:28%}
+    50% {transform: scale(1.1); color: #d1c62e; left:28.5%}
+    100% {transform: scale(1); color: #f59236; left:28%}
+}
+
+@media screen and (min-width: 3800px) {
+    #second_container h1{
+        font-size: 1.5vw !important;
+    }
+
+    #second_container h2{
+        font-size: 50px;
+    }
+
+    .bg-triangle-yellow h1{
+        font-size: calc(10px + 1.3vw);
+    }
+
+    .bg-triangle-yellow p{
+        font-size: calc(10px + 1vw) !important;
+    }
+
+    .container p{
+        font-size: 0.8vw;
+    }
+}
+
+
+@media screen and (min-width: 2500px) {
+    .padding-image-top{
+        padding-top: 2vw;
+        padding-bottom: 8vw;
+    }
+    
+    .padding-image-bwl{
+        padding-top: 8vw;
+        padding-bottom: 2vw;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .icon-info_1{
+        top: 250%;
+    }
+
+    .icon-info_2{
+        left: 32%;
+    }
+
+    .img-h{
+        height: 110% !important;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .carousel_1 img{
+       content: url(../images/category_mountain/categorie_slideshow_1_800px.jpg)
+   }
+
+   .carousel_2 img{
+       content: url(../images/category_mountain/categorie_slideshow_2_800px.jpg)
+   }
+
+   .carousel_3 img{
+       content: url(../images/category_mountain/categorie_slideshow_3_800px.jpg)
+   }
+
+   .carousel_4 img{
+       content: url(../images/category_mountain/categorie_slideshow_4_800px.jpg)
+   }
+
+   .carousel_5 img{
+       content: url(../images/category_mountain/categorie_slideshow_5_800px.jpg)
+   }
+}
+
+@media screen and (max-width: 768px) {
+    .slideshow-content-position{
+        left: 0;
+    }
+
+    .slideshow-content-header{
+        font-size: calc(14px + 5.8vw);
+
+    }
+
+    .slideshow-content-paragraph{
+        font-size: calc(20px);
+    }
+
+    .content_body{
+        padding: 20px 0px;
+    }
+
+    .icon-info_1{
+        top: 220%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .icon-info_2{
+        top: -20%;
+        font-size: 35px;
+    }
+
+    .icon-info_1{
+        top: 150%;
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .padding-image-bwl{
+        padding-top: 7vw;
+    }
+
+    .icon-info_1{
+        font-size: 25px;
+    }
+
+    .icon-info_2{
+        font-size: 25px;
+    }
+}
+
+
+/* card css design, copy from my bootstrap_test folder file*/
+.container {
+    overflow: auto;
+}
+
+.cards {
+    overflow: auto;
+    min-height: 550px;
+}
+
+.card {
+    background: linear-gradient(4deg, var(--card-yellow), var(--card-gray)), #F4EEA9;
+    width: 18rem;
+    min-width: 30% !important;
+    box-shadow: -5px 5px 25px #0000009d;
+    padding: 20px;
+    transition: all .3s ease-in-out;
+    border-radius: 70px 70px 0px 0px !important;
+    --bs-card-border-width: 0px !important;
+}
+
+
+.card .fs-5 {
+    font-size: 1.15rem !important;
+}
+
+.card a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card:not(:first-child) {
+    margin-left: -8rem;
+}
+
+.card:hover,
+.card:focus-within {
+    transform: translateY(-1rem) rotateZ(5deg);
+}
+
+.hover{
+    transform: translateY(-1rem) rotateZ(3deg);
+}
+
+.card:hover~.card,
+.card:focus-within~.card {
+    transform: translateX(8rem);
+}
+
+.card .designation {
+    display: inline;
+    border-radius: 10px;
+    padding: 4px 10px;
+    border: 1px solid #ddd;
+}
+
+
+@media screen and (min-width: 768px) {
+    .w-30p{
+        width: 30% !important;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+    .card{
+        margin-left: 15px !important;
+    }
+
+    .w-30p{
+        width: 90% !important;
+    }
+
+    .card:not(:first-child) {
+        margin-top: -2rem;
+        margin-left: 0rem;
+    }
+
+    .card:hover~.card,
+    .card:focus-within~.card {
+        transform: translateY(5rem);
+        transform: translateX(0rem);
+    }
+
+    .card:hover,
+    .card:focus-within{
+        transform: translateY(-5rem) rotateZ(3deg);
+    }
+}

@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mountain Category</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="images/general/favicon.png" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/category_mountain.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/13427233db.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="js/scripts.js"></script>
+    <script src="js/hover_scripts.js"></script>
+  </head>
+
+  <body class="container-1920">
+    <nav class="autohide navbar navbar-expand-md bg-light py-0 sticky-top">
+      <div class="container-fluid bg-top-nav-green px-0">
+        <a class="navbar-brand ms-3 my-2 text-center" href="index.html"
+          ><img
+            src="images/general/logo_light.png"
+            alt="logo_white"
+            width="65%"
+        /></a>
+        <button
+          class="navbar-toggler navbar-dark me-3"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse bg-mobile-dropdown-green-yellow"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav mb-0 mb-lg-0 text-center move-auto-right">
+            <li class="nav-item">
+              <a
+                class="nav-link text-light-lg text-dark-md fs-top-nav-vm px-3"
+                aria-current="page"
+                href="about.html"
+                >ABOUT</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link active dropdown-toggle text-light-lg text-dark-md fs-top-nav-vm px-3"
+                href="category_mountain.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                MOUNTAIN
+              </a>
+              <ul class="dropdown-menu bg-dropdown-yellow-green mx-5">
+                  <li>
+                    <a class="dropdown-item item-fw-bold fs-drown_menu text-center active" href="category_mountain.html">Category</a>
+                  </li>
+                  <li><hr class="dropdown-divider"></li>
+                    <li>
+                      <a
+                        class="dropdown-item item-fw-bold fs-drown_menu"
+                        href="mountain_genting.html"
+                        ><i class="fa-solid fa-turn-up icon_rotate "></i>&nbsp;Genting Highland</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item item-fw-bold fs-drown_menu"
+                        href="mountain_cameron.html"
+                        ><i class="fa-solid fa-turn-up icon_rotate"></i>&nbsp;Cameron Highland</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item item-fw-bold fs-drown_menu"
+                        href="mountain_penang.html"
+                        ><i class="fa-solid fa-turn-up icon_rotate"></i>&nbsp;Penang Hill</a
+                      >
+                    </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown ">
+              <a
+                class="nav-link dropdown-toggle text-light-lg text-dark-md fs-top-nav-vm px-3"
+                href="category_beach.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                BEACH
+              </a>
+              <ul class="dropdown-menu bg-dropdown-yellow-green mx-5">
+                <li>
+                  <a class="dropdown-item item-fw-bold fs-drown_menu text-center" href="category_beach.html">Category</a>
+                </li>
+                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <a
+                    class="dropdown-item item-fw-bold fs-drown_menu"
+                    href="beach_perhentian.html"
+                    ><i class="fa-solid fa-turn-up icon_rotate"></i>&nbsp;Perhentian Island</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item item-fw-bold fs-drown_menu" href="beach_pulau.html"
+                    ><i class="fa-solid fa-turn-up icon_rotate"></i>&nbsp;Pulau Rawa</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item item-fw-bold fs-drown_menu"
+                    href="beach_pantai.html"
+                    ><i class="fa-solid fa-turn-up icon_rotate"></i>&nbsp;Pantai Cenang</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light-lg text-dark-md fs-top-nav-vm px-3"
+                href="category_culture.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                CULTURE
+              </a>
+              <ul
+                class="dropdown-menu bg-dropdown-yellow-green bg-dropdown-yellow-width mx-5"
+              >
+                <li>
+                  <a class="dropdown-item item-fw-bold fs-drown_menu text-center" href="category_culture.html">Category</a>
+                </li>
+                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <a
+                    class="dropdown-item item-fw-bold fs-drown_menu"
+                    href="culture_thean.html"
+                    ><i class="fa-solid fa-turn-up icon_rotate"></i>&nbsp;Thean Hou Temple</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item item-fw-bold fs-drown_menu"
+                    href="culture_batu.html"
+                    ><i class="fa-solid fa-turn-up icon_rotate"></i>&nbsp;Batu Caves</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item item-fw-bold fs-drown_menu text-wrap d-md-inline d-none"
+                    href="culture_sultan.html"
+                    ><i class="fa-solid fa-turn-up icon_rotate"></i>&nbsp;Sultan Salahuddin <br> &nbsp;Abdul Aziz Mosque</a
+                  >
+                  <a
+                    class="dropdown-item item-fw-bold fs-drown_menu text-wrap text-wrap d-md-none inline-flex"
+                    href="culture_sultan.html"
+                    ><i class="fa-solid fa-turn-up icon_rotate"></i>&nbsp;Sultan Salahuddin Abdul Aziz Mosque</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light-lg text-dark-md fs-top-nav-vm px-3"
+                aria-current="page"
+                href="contact.html"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid px-0 position-relative">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide s_bg-h"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel_1 active ">
+            <img
+              src="images/category_mountain/categorie_slideshow_1_1920px.jpg"
+              class="d-block image-fill-black s_bg-h"
+              alt="categorie_slideshow_mountain_1"
+            />
+          </div>
+          <div class="carousel-item carousel_2">
+            <img
+              src="images/category_mountain/categorie_slideshow_2_1920px.jpg"
+              class="d-block image-fill-black s_bg-h"
+              alt="categorie_slideshow_mountain_2"
+            />
+          </div>
+          <div class="carousel-item carousel_3">
+            <img
+              src="images/category_mountain/categorie_slideshow_3_1920px.jpg"
+              class="d-block image-fill-black s_bg-h"
+              alt="categorie_slideshow_mountain_3"
+            />
+          </div>
+          <div class="carousel-item carousel_4">
+            <img
+              src="images/category_mountain/categorie_slideshow_4_1920px.jpg"
+              class="d-block image-fill-black s_bg-h"
+              alt="categorie_slideshow_mountain_4"
+            />
+          </div>
+          <div class="carousel-item carousel_5">
+            <img
+              src="images/category_mountain/categorie_slideshow_5_1920px.jpg"
+              class="d-block image-fill-black s_bg-h"
+              alt="categorie_slideshow_mountain_5"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div
+        class="container position-absolute slideshow-content-position d-flex justify-content-center align-items-center h-100"
+      >
+        <div class="w-100 mx-sm-5 mx-4 mt-2 p-2 p-md-5">
+          <h1 class="text-light t1">MOUNTAIN</h1>
+          <p class="text-light p1">
+            Leaving the heat and noisy city, hike to the peak and listen to your
+            echo blended with the natural music.
+          </p>
+          <a
+            type="button"
+            href="#second_container"
+            class="btn bg-btn-green text-light fs-5"
+            >Read More</a
+          >
+        </div>
+      </div>
+    </div>
+    <div id="second_container" class="bg-triangle-green">
+      <div class="padding-image-top">
+        <div class="container-fluid d-md-flex d-block justify-content-center">
+          <div
+            class="content_body row d-sm-flex d-block flex-nowrap justify-content-center align-items-start m-0"
+          >
+            <div
+              class="col-md-7 col-sm-5 col-12 me-sm-3 me-0 h-100 align-self-center"
+            >
+              <div class="h-50 d-none d-md-flex justify-content-center">
+                <div class="align-self-center">
+                  <h1 class="fw-bold t5">Malaysia doesn't have winter?</h1>
+                  <p class="p4">
+                    Definitely yes, however, you will be able to feel the chill
+                    if you are willing to go outside. Is it going to the
+                    shopping mall? Of course not!! The power of the natural is
+                    cannot be compared with the air-conditional. Please come
+                    into the hug of the mountain in Malaysia.
+                  </p>
+                </div>
+              </div>
+              <img
+                src="images/category_mountain/second_container_mountain_2_image.jpg"
+                class="h-50 d-none d-md-block rounded-3"
+                alt="second_container_mountain_2"
+                width="100%"
+              />
+
+              <div class="h-100 d-bloc d-md-none justify-content-center">
+                <h1 class="fw-bold t5">Malaysia doesn't have winter?</h1>
+                <p class="p3">
+                  Definitely yes, however, you will be able to feel the chill if
+                  you are willing to go outside. Is it going to the shopping
+                  mall? Of course not!! The power of the natural is cannot be
+                  compared with the air-conditional. Please come into the hug of
+                  the mountain in Malaysia.
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-md-4 col-sm-6 col-12 d-flex justify-content-center px-0 h-100 align-self-center"
+            >
+              <img
+                src="images/category_mountain/second_container_mountain_image.jpg"
+                class="rounded-3"
+                alt="second_container_mountain_image"
+                width="100%"
+              />
+            </div>
+          </div>
+          <img
+            src="images/category_mountain/second_container_mountain_2_image.jpg"
+            class="h-50 d-md-none d-block container-fluid px-sm-3 px-0 rounded-3"
+            alt="second_container_mountain_2_image"
+            width="100%"
+          />
+        </div>
+        <div class="position-relative pt-5">
+          <img
+            src="images/category_mountain/decoration_1.png"
+            class="ms-auto position-absolute top-50 end-0"
+            width="40%"
+            alt="decoration_1"
+          />
+          <div class="position-absolute icon-info_1">
+            <i class="fa-solid fa-circle-info"
+            data-bs-toggle="tooltip"
+            data-bs-placement="left"
+            data-bs-custom-class="custom-tooltip"
+            data-bs-title="Don't stay at home, Come on here!!"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-triangle-yellow">
+      <div class="container pb-5 pb-sm-0">
+        <h1 class="text-left ms-3 ms-sm-5">
+          <i class="fa-solid fa-quote-left"></i> It's not the mountain we
+          conquer, but ourselves.<i class="fa-solid fa-quote-right"></i>
+        </h1>
+        <p class="text-left ms-md-5 ms-3 fs-2 pt-3 p3">- Sir Edmund Hillary</p>
+      </div>
+
+      <div class="position-relative pt-5">
+        
+        <img
+          id="decoration_2"
+          src="images/category_mountain/decoration_2.png"
+          class="position-absolute decoration_2-position"
+          alt="decoration_2"
+          width="30%"
+        />
+        <div class="position-absolute icon-info_2">
+          <i class="fa-solid fa-circle-info"
+          data-bs-toggle="tooltip"
+          data-bs-placement="right"
+          data-bs-custom-class="custom-tooltip"
+          data-bs-title="Come here to get your best holiday experience!!"></i>
+        </div>
+      </div>
+      <div class="padding-image-bwl">
+        <div class="container-fluid d-md-flex d-block justify-content-center">
+          <div
+            class="content_body row d-sm-flex flex-sm-row d-flex flex-column-reverse flex-nowrap justify-content-center align-items-start m-0 pt-sm-3 pt-5"
+          >
+            <div
+              class="third_container_image col-md-4 col-sm-6 col-12 d-flex justify-content-center px-0 h-100"
+            >
+              <img
+                src="images/category_mountain/third_container_mountain_image.jpg"
+                class="rounded-3"
+                alt="third_container_mountain_image"
+                width="100%"
+              />
+            </div>
+            <div
+              class="col-md-7 col-sm-5 col-12 ms-sm-3 ms-0 h-100 align-self-center pe-md-0"
+            >
+              <div class="h-50 d-none d-md-flex justify-content-center">
+                <div class="align-self-center ms-5">
+                  <h2>Are you ready for coming to our country to travel?</h2>
+                </div>
+              </div>
+              <img
+                src="images/category_mountain/third_container_mountain_2_image.jpg"
+                class="h-50 w-100 d-none d-md-block rounded-3"
+                alt="third_container_mountain_2_image"
+                width="100%"
+              />
+
+              <div class="h-100 d-bloc d-md-none justify-content-center">
+                <h1>Are you ready for coming to our country to travel?</h1>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 pe-sm-4 pe-0 d-md-none d-block">
+            <img
+              src="images/category_mountain/third_container_mountain_2_image.jpg"
+              class="h-50 container-fluid ms-sm-3 px-0 rounded-3 w-100"
+              alt="third_container_mountain_2_image"
+              width="100%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="back-top">
+      <a href="#"
+        ><img src="images/general/top.png" alt="arrow to top" width="30px"
+      /></a>
+    </div>
+    <div class="bg-bottom">
+      <div class="container-fluid mt-5 p-0 p-sm-3">
+        <div
+          class="d-block d-sm-flex align-items-center justify-content-center py-5"
+        >
+          <div class="card p-0 w-30p rounded-3">
+            <img
+              src="images/category_mountain/card_genting_1.jpg"
+              class="card-img-top rounded-3"
+              alt="card_genting_1"
+            />
+            <div class="card-body">
+              <h5 class="card-title fs-2 fw-bold">Genting Highland</h5>
+              <p class="card-text fs-3">
+                Breathe deep in Genting Highlands where, unlike nearby Kuala
+                Lumpur, the air is fresh and clean.
+              </p>
+              <a href="mountain_genting.html" class="btn btn-success bg-btn-green fs-5"
+                >Read More</a
+              >
+            </div>
+          </div>
+          <div class="card p-0 w-30p rounded-3">
+            <img
+              src="images/category_mountain/card_penanghill_1.jpg"
+              class="card-img-top rounded-3"
+              alt="card_penanghill_1"
+            />
+            <div class="card-body">
+              <h5 class="card-title fs-2 fw-bold">Penang Hill</h5>
+              <p class="card-text fs-3">
+                The Habitat Penang Hill provides the most authentic, diverse,
+                and educational Malaysian rainforest experience.
+              </p>
+              <a href="mountain_penang.html" class="btn btn-success bg-btn-green fs-5"
+                >Read More</a
+              >
+            </div>
+          </div>
+          <div class="card p-0 w-30p rounded-3">
+            <img
+              src="images/category_mountain/card_cameron_1.jpg"
+              class="card-img-top rounded-3"
+              alt="card_cameron_1"
+            />
+            <div class="card-body">
+              <h5 class="card-title fs-2 fw-bold">Cameron Highland</h5>
+              <p class="card-text fs-3">
+                Cameron Highlands is an extensive hill station in Pahang, West
+                Malaysia that is comprised of three townships and five
+                settlements.
+              </p>
+              <a href="mountain_cameron.html" class="btn btn-success bg-btn-green fs-5"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-sm-flex d-block justify-content-between my-5">
+            <a class="prev-btn ms-sm-3 ms-0 p-3 rounded left_arrow d-flex text-decoration-none d-flex align-items-center" href="category_culture.html">
+              <div class="left_arrow">
+                <img src="images/general/top.png" alt="arrow to left" width="30px"/>
+              </div>
+              <div class="prev-content ms-3 d-block text-dark text-center">
+                <h3 class="mb-0">Culture Category</h3>
+              </div>
+            </a>
+
+            <a class="next-btn me-sm-3 me-0 p-3 my-sm-0 my-3 rounded left_arrow d-flex text-decoration-none d-flex flex-row-reverse align-items-center" href="category_beach.html">
+              <div class="right_arrow">
+                <img src="images/general/top.png" alt="arrow to right" width="30px"/>
+              </div>
+              <div class="next-content me-3 d-block text-dark">
+                <h3 class="mb-0">Beach Category</h3>
+              </div>
+            </a>
+      </div>
+      <footer class="position-relative d-flex align-items-center flex-column">
+        <div class="container-fluid">
+          <div class="row pt-5 justify-content-center">
+            <div
+              class="col-12 col-sm-5 col-md-3 mx-md-3 mb-5 mb-sm-0 d-flex justify-content-center align-items-end"
+            >
+              <a href="index.html"
+                ><img src="images/general/logo_light.png" alt="logo_light" width="117px"
+              /></a>
+            </div>
+            <div
+              class="col-12 col-sm-2 col-md-2 text-center text-sm-start text-white d-flex justify-content-center"
+            >
+              <div>
+                <h3 class="fw-bold">MENU</h3>
+                <ul class="list-unstyled fs-5">
+                  <a href="about.html"><li class="mb-2">ABOUT</li></a>
+                  <a href="category_mountain.html"
+                    ><li class="mb-2">MOUNTAIN</li></a
+                  >
+                  <a href="category_beach.html"><li class="mb-2">BEACH</li></a>
+                  <a href="category_culture.html"
+                    ><li class="mb-2">CULTURE</li></a
+                  >
+                  <a href="contact.html"><li>CONTACT</li></a>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="col-12 col-sm-5 col-md-3 text-white d-flex flex-column text-center align-self-end"
+            >
+              <h3 class="fw-bold">CONTACT US</h3>
+              <div>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100002367838790"
+                  target="_blank"
+                  ><img src="images/general/facebook.png" alt="facebook_icon" class="mx-2"
+                /></a>
+                <a href="https://www.instagram.com/yeushyang/" target="_blank"
+                  ><img src="images/general/instagram.png" alt="instagram_icon" class="mx-2"
+                /></a>
+                <a href="https://github.com/chiayeushyang" target="_blank"
+                  ><img src="images/general/github.png" alt="github_icon" class="mx-2"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="line" class="position-absolute"></div>
+        <p class="position-absolute bottom-0 text-light">
+          Copyright © 2022 3C2L. All Rights Reserved.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
