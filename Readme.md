@@ -8,3 +8,5 @@ https://leewenghin.github.io/week12_assignment2/index.html
 
 Bellerose Website: 
 http://bellerose.infinityfreeapp.com/
+- Username: dominic 
+- Password: Dominic123
