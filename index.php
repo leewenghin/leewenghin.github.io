@@ -10,13 +10,11 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/funny-icon-27.png" rel="icon">
+  <link href="assets/img/logo-color-compressed.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -25,6 +23,8 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
 
   <!-- Fontawesome -->
   <script src="https://kit.fontawesome.com/9d8effef28.js" crossorigin="anonymous"></script>
@@ -45,14 +45,12 @@
 
       <div class="profile">
         <img src="assets/img/profile-img3.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Lee Weng Hin</a></h1>
+        <h1 class="text-light"><a href="index.php">Dominic Lee</a></h1>
         <div class="social-links mt-3 text-center">
           <!-- <a href="https://twitter.com/Dominic07090336" class="twitter" target="_blank"><i
               class="bx bxl-twitter"></i></a> -->
-          <a href="https://www.facebook.com/wenghin.dominiclee" class="facebook" target="_blank"><i
-              class="bx bxl-facebook"></i></a>
-          <a href="https://www.instagram.com/dominic_lwh/?hl=en" class="instagram" target="_blank"><i
-              class="bx bxl-instagram"></i></a>
+          <a href="https://www.facebook.com/wenghin.dominiclee" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/dominic_lwh/?hl=en" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
           <a href="https://github.com/leewenghin" class="github" target="_blank"><i class="bx bxl-github"></i></a>
         </div>
       </div>
@@ -109,8 +107,7 @@
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <a
-                      href="mailto:dominicleewenghin2@gmail.com">dominicleewenghin@gmail.com
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <a href="mailto:dominicleewenghin2@gmail.com">dominicleewenghin@gmail.com
                     </a></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>9 Nov 2001</span></li>
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
@@ -126,8 +123,7 @@
                   <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor in Software
                       Engineering (Present)</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Education:</strong> <a
-                      href="https://www.newera.edu.my/index.php" target="_blank">New Era University
+                  <li><i class="bi bi-chevron-right"></i> <strong>Education:</strong> <a href="https://www.newera.edu.my/index.php" target="_blank">New Era University
                       College</a></li>
                 </ul>
               </div>
@@ -250,222 +246,6 @@
               </div><br>Traveling
             </a>
           </div>
-<!-- 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
-            <a class="text-dark" href="bellerose.infinityfreeapp.com" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="assets/img/bellerose.png" class="img-fluid" alt="">
-              </div><br>E-commerce (Username: dominic | Password: Dominic123)
-            </a>
-          </div> -->
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week2/index.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week2/images/bg-exercise.jpg" class="img-fluid" alt="">
-              </div><br>Week 2 (Exercise 1)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week3/apple.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week3/images/bg-exercise1.png" class="img-fluid" alt="">
-              </div><br>Week 3 (Exercise 1)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week3/exercise2/index.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week3/images/bg-exercise2.png" class="img-fluid" alt="">
-              </div><br>Week 3 (Exercise 2)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week3/homework/homework1.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week3/images/bg-hw1.png" class="img-fluid" alt="">
-              </div><br>Week 3 (Homework 1)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week3/homework/homework2.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week3/images/bg-hw2.png" class="img-fluid" alt="">
-              </div><br>Week 3 (Homework 2)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week3/homework/homework3.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week3/images/bg-hw3.png" class="img-fluid" alt="">
-              </div><br>Week 3 (Homework 3)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week3/homework/homework4.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week3/images/bg-hw4.png" class="img-fluid" alt="">
-              </div><br>Week 3 (Homework 4)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week3/homework/homework5.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week3/images/bg-hw5.png" class="img-fluid" alt="">
-              </div><br>Week 3 (Homework 5)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week5/index.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week5/images/bg-exercise.png" class="img-fluid" alt="">
-              </div><br>Week 5 (Exercise 1)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week5/homework.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week5/images/bg-hm1.png" class="img-fluid" alt="">
-              </div><br>Week 5 (Homework 1)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week5/homework2.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week5/images/bg-hm2.png" class="img-fluid" alt="">
-              </div><br>Week 5 (Homework 2)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week5/homework3.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week5/images/bg-hm3.png" class="img-fluid" alt="">
-              </div><br>Week 5 (Homework 3)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week6/index.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week6/images/bg-exercise.png" class="img-fluid" alt="">
-              </div><br>Week 6 (Exercise 1)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week6/exercise2a.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week6/images/bg-2a.png" class="img-fluid" alt="">
-              </div><br>Week 6 (Exercise 2a)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week6/exercise2b.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week6/images/bg-2b.png" class="img-fluid" alt="">
-              </div><br>Week 6 (Exercise 2b)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week6/exercise2c.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week6/images/bg-2c.png" class="img-fluid" alt="">
-              </div><br>Week 6 (Exercise 2c)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week6/exercise2d.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week6/images/bg-2d.png" class="img-fluid" alt="">
-              </div><br>Week 6 (Exercise 2d)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week6/homework.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week6/images/homework1.png" class="img-fluid" alt="">
-              </div><br>Week 6 (Homework)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week6/homework-after.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week6/images/homework1.png" class="img-fluid" alt="">
-              </div><br>Week 6 (Homework-latest)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week7/exercise1.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week7/images/bg-exercise1.png" class="img-fluid" alt="">
-              </div><br>Week 7 (Exercise 1)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week7/exercise2.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week7/images/bg-exercise2.png" class="img-fluid" alt="">
-              </div><br>Week 7 (Exercise 2)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week8/index.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week8/images/bg-exercise1.png" class="img-fluid" alt="">
-              </div><br>Week 8 (Exercise 1)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week9/excercise.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week9/images/exercise1-img.jpg" class="img-fluid" alt="">
-              </div><br>Week 9 (Exercise 1)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week9/exercise2.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week9/images/exercise2-img.jpg" class="img-fluid" alt="">
-              </div><br>Week 9 (Exercise 2)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week10/exercise1.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week10/images/exercise1.png" class="img-fluid" alt="">
-              </div><br>Week 10 (Exercise 1)
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-practices">
-            <a class="text-dark" href="week11/exercise1.html" title="More Details" target="_blank">
-              <div class="portfolio-wrap">
-                <img src="week11/images/background1.jpg" class="img-fluid" alt="">
-              </div><br>Week 11 (Exercise 1)
-            </a>
-          </div> -->
 
         </div>
       </div>
@@ -504,19 +284,17 @@
                 <p>+60 16 308 6381</p>
               </div>
 
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.132835371484!2d101.7380984!3d3.0591193000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc35111e086ed3%3A0x2b150ec26a379dfb!2s7%2C%20Jalan%205%2F154d%2C%20Taman%20Desa%20Cheras%2C%2056000%20Kuala%20Lumpur%2C%20Wilayah%20Persekutuan%20Kuala%20Lumpur!5e0!3m2!1sen!2smy!4v1654685215835!5m2!1sen!2smy"
-                frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.132835371484!2d101.7380984!3d3.0591193000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc35111e086ed3%3A0x2b150ec26a379dfb!2s7%2C%20Jalan%205%2F154d%2C%20Taman%20Desa%20Cheras%2C%2056000%20Kuala%20Lumpur%2C%20Wilayah%20Persekutuan%20Kuala%20Lumpur!5e0!3m2!1sen!2smy!4v1654685215835!5m2!1sen!2smy" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
             </div>
 
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="https://formsubmit.co/el/fimevi" method="POST" role="form" class="email-form">
+            <form id="email-form" role="form" class="email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
+                  <input type="text" class="form-control" name="name" id="name" required>
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">Your Email</label>
@@ -529,15 +307,13 @@
               </div>
               <div class="form-group">
                 <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
+                <textarea class="form-control" name="message" id="message" rows="10" required></textarea>
               </div>
-              <!-- <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div> -->
-              <div class="text-center"><button type="submit">Send Message</button></div>
+
+              <div id="alert-message"></div>
+              <div class="text-center"><button type="submit" id="submit">Send Message</button></div>
             </form>
+
           </div>
 
         </div>
@@ -564,8 +340,7 @@
     </div>
   </footer><!-- End  Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter.js"></script>
@@ -580,6 +355,12 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/contact.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <script>
+    submit_form();
+  </script>
 
 </body>
 
