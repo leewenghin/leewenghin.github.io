@@ -28,17 +28,17 @@ if ($name && $email && $message) { // Check if name, email and message is empty
     /* Email to recipient */
     //Server settings
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
+    $mail->Host       = '';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'dominicleewenghin@gmail.com';                     //SMTP username Your full Gmail address (e.g. you@gmail.com)
-    $mail->Password   = 'tljl pmqg ilrm sofx';                               //SMTP password The password that you use to log in to Gmail
-    $mail->SMTPSecure = 'ssl';            //Enable implicit TLS encryption
-    $mail->Port       = 465;
+    $mail->Username   = '';                     //SMTP username Your full Gmail address (e.g. you@gmail.com)
+    $mail->Password   = '';                               //SMTP password The password that you use to log in to Gmail
+    $mail->SMTPSecure = '';            //Enable implicit TLS encryption
+    $mail->Port       = ;
     //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS | 465 = PHPMailer::ENCRYPTION_SMTPS
 
     //Recipients
     $mail->setFrom($email, $name);
-    $mail->addAddress('dominicleewenghin@gmail.com', 'Dominic');               //Name is optional
+    $mail->addAddress('', '');               //Name is optional
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
@@ -57,54 +57,6 @@ if ($name && $email && $message) { // Check if name, email and message is empty
       $msg = 'Form submitted';
     }
 
-      // // SMTP configuration (common for both recipients)
-      // $mail->isSMTP();
-      // $mail->Host = 'smtp.gmail.com';
-      // $mail->SMTPAuth = true;
-      // $mail->Username = 'dominicleewenghin@gmail.com'; // Your Gmail email address
-      // $mail->Password = 'tljl pmqg ilrm sofx'; // Your Gmail password
-      // $mail->SMTPSecure = 'ssl';
-      // $mail->Port = 465;
-
-      // // Set the sender's information (you can customize this as needed)
-      // $mail->setFrom('dominicleewenghin@gmail.com', 'Dominic');
-
-      // // Define the recipients and their respective email content
-      // $recipients = [
-      //     ['email' => $email, 'name' => $name, 'content_file' => 'Testing.php'],
-      //     ['email' => 'dominicleewenghin@gmail.com', 'name' => 'Dominic', 'content_file' => 'email.php'],
-      // ];
-
-      // foreach ($recipients as $recipientInfo) {
-      //     $email = $recipientInfo['email'];
-      //     $name = $recipientInfo['name'];
-      //     $contentFile = $recipientInfo['content_file'];
-
-      //     // Add the recipient
-      //     $mail->addAddress($email, $name);
-
-      //     // Include the content from the PHP file
-      //     include $contentFile;
-      //     $content = ob_get_clean();
-
-
-      //     // Set the email content
-      //     $mail->isHTML(true);
-      //     $mail->Subject = 'Your Subject';
-      //     $mail->Body = $content;
-
-      //     // Send the email
-      //     if ($mail->send()) {
-      //         echo "Email sent to $email<br>";
-      //     } else {
-      //         echo "Email could not be sent to $email. Error: " . $mail->ErrorInfo . "<br>";
-      //     }
-
-      //     // Clear recipients for the next iteration
-      //     $mail->clearAddresses();
-
-      //     $mail->Body = '';
-      // }
   }
 } else {
   $isSuccess = false;
