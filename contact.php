@@ -33,7 +33,7 @@ if ($name && $email && $message) { // Check if name, email and message is empty
     $mail->Username   = '';                     //SMTP username Your full Gmail address (e.g. you@gmail.com)
     $mail->Password   = '';                               //SMTP password The password that you use to log in to Gmail
     $mail->SMTPSecure = '';            //Enable implicit TLS encryption
-    $mail->Port       = ;
+    $mail->Port       = '';
     //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS | 465 = PHPMailer::ENCRYPTION_SMTPS
 
     //Recipients
