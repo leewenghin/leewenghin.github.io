@@ -46,7 +46,6 @@ if ($name && $email && $message) { // Check if name, email and message is empty
 
     include 'email.php';
     $emailContent = ob_get_clean(); // Email content will display here
-
     $mail->Body    = $emailContent;
 
     if (!$mail->send()) {
